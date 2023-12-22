@@ -1,4 +1,4 @@
-Holonomic_Base_Simulation
+Holonomic Base Simulation
 
 Simulation in Gazebo for an autonomous holonomic base using ROS 2. The project is designed for compatibility with ROS Foxy, emphasizing the use of ROS 2 tools such as Nav2 for navigation and ROS 2 control for enhanced control applications in holonomic structures.
 
