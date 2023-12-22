@@ -1,0 +1,16 @@
+running develop
+running egg_info
+writing octobot_2.egg-info/PKG-INFO
+writing dependency_links to octobot_2.egg-info/dependency_links.txt
+writing entry points to octobot_2.egg-info/entry_points.txt
+writing requirements to octobot_2.egg-info/requires.txt
+writing top-level names to octobot_2.egg-info/top_level.txt
+reading manifest file 'octobot_2.egg-info/SOURCES.txt'
+writing manifest file 'octobot_2.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/deivideich/ros_2_ws/install/octobot_2/lib/python3.8/site-packages/site.py
+Creating /home/deivideich/ros_2_ws/install/octobot_2/lib/python3.8/site-packages/octobot-2.egg-link (link to .)
+
+Installed /home/deivideich/ros_2_ws/build/octobot_2
+running install_data
+copying launch/rsp.launch.py -> /home/deivideich/ros_2_ws/install/octobot_2/share/octobot_2/launch

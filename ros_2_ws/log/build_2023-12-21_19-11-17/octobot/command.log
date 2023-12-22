@@ -1,0 +1,1 @@
+Invoking command in '/home/deivideich/ros_2_ws/build/octobot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/deivideich/ros_2_ws/src/octobot -DCMAKE_INSTALL_PREFIX=/home/deivideich/ros_2_ws/install/octobot
