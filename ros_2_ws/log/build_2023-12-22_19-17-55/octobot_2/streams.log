@@ -1,0 +1,16 @@
+[1.629s] Invoking command in '/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/build/octobot_2': PYTHONPATH=/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/build/octobot_2/prefix_override:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/octobot_2/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/build/octobot_2/build --no-deps install_data
+[1.847s] running develop
+[2.006s] running egg_info
+[2.006s] writing octobot_2.egg-info/PKG-INFO
+[2.006s] writing dependency_links to octobot_2.egg-info/dependency_links.txt
+[2.006s] writing entry points to octobot_2.egg-info/entry_points.txt
+[2.006s] writing requirements to octobot_2.egg-info/requires.txt
+[2.006s] writing top-level names to octobot_2.egg-info/top_level.txt
+[2.036s] reading manifest file 'octobot_2.egg-info/SOURCES.txt'
+[2.037s] writing manifest file 'octobot_2.egg-info/SOURCES.txt'
+[2.067s] running build_ext
+[2.068s] Creating /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/octobot_2/lib/python3.8/site-packages/octobot-2.egg-link (link to .)
+[2.069s] 
+[2.069s] Installed /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/build/octobot_2
+[2.069s] running install_data
+[2.112s] Invoked command in '/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/build/octobot_2' returned '0': PYTHONPATH=/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/build/octobot_2/prefix_override:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/octobot_2/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/build/octobot_2/build --no-deps install_data

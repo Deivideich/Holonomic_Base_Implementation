@@ -1,0 +1,122 @@
+[2.264s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[2.264s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f4480202c10>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=16, paths=None, symlink_install=True, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f4480202c10>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f4480208220>)
+[2.358s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.358s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.358s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.358s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.358s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.358s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.358s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/src/octobot_2'
+[2.358s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.358s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.358s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.358s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.358s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.358s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.358s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.358s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.358s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.369s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_python' and name 'octobot_2'
+[2.369s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.369s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.369s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.369s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.369s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.586s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.586s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.625s] WARNING:colcon.colcon_core.prefix_path.colcon:The path '/home/deivideich/.local/share/Trash/files/articubot_one.4/install' in the environment variable COLCON_PREFIX_PATH doesn't exist
+[2.625s] WARNING:colcon.colcon_core.prefix_path.colcon:The path '/home/deivideich/tutorial_ros2_ws/install' in the environment variable COLCON_PREFIX_PATH doesn't exist
+[2.626s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/deivideich/ros_2_ws/install/articubot_one' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[2.626s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/deivideich/.local/share/Trash/files/articubot_one.4/install/articubot_one' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[2.626s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/deivideich/tutorial_ros2_ws/install/omni_robot_description' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[2.626s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/deivideich/tutorial_ros2_ws/install/omni_control' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[2.626s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/deivideich/tutorial_ros2_ws/install/omni_cartographer' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[2.626s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/deivideich/tutorial_ros2_ws/install/my_package' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[2.626s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/deivideich/tutorial_ros2_ws/install/gazebo_simulation' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[2.626s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/deivideich/tutorial_ros2_ws/install/articubot_one' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[2.626s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/deivideich/ros_2_ws/install/articubot_one' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[2.626s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/deivideich/.local/share/Trash/files/articubot_one.4/install/articubot_one' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[2.626s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/deivideich/tutorial_ros2_ws/install/omni_robot_description' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[2.626s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/deivideich/tutorial_ros2_ws/install/omni_control' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[2.626s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/deivideich/tutorial_ros2_ws/install/omni_cartographer' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[2.627s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/deivideich/tutorial_ros2_ws/install/my_package' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[2.627s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/deivideich/tutorial_ros2_ws/install/gazebo_simulation' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[2.627s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/deivideich/tutorial_ros2_ws/install/articubot_one' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[2.666s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install
+[2.703s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/deivideich/Holonomic_Base_Simulation/install
+[2.742s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/deivideich/articubot_example/install
+[2.780s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/deivideich/ros_2_ws/install
+[2.818s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/deivideich/test_holonomic/install
+[2.857s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/deivideich/omni_control/install
+[2.897s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 325 installed packages in /opt/ros/foxy
+[3.031s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /opt/ros/noetic
+[3.031s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[3.173s] Level 5:colcon.colcon_core.verb:set package 'octobot_2' build argument 'cmake_args' from command line to 'None'
+[3.173s] Level 5:colcon.colcon_core.verb:set package 'octobot_2' build argument 'cmake_target' from command line to 'None'
+[3.173s] Level 5:colcon.colcon_core.verb:set package 'octobot_2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.173s] Level 5:colcon.colcon_core.verb:set package 'octobot_2' build argument 'cmake_clean_cache' from command line to 'False'
+[3.173s] Level 5:colcon.colcon_core.verb:set package 'octobot_2' build argument 'cmake_clean_first' from command line to 'False'
+[3.173s] Level 5:colcon.colcon_core.verb:set package 'octobot_2' build argument 'cmake_force_configure' from command line to 'False'
+[3.173s] Level 5:colcon.colcon_core.verb:set package 'octobot_2' build argument 'ament_cmake_args' from command line to 'None'
+[3.173s] Level 5:colcon.colcon_core.verb:set package 'octobot_2' build argument 'catkin_cmake_args' from command line to 'None'
+[3.173s] Level 5:colcon.colcon_core.verb:set package 'octobot_2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.173s] DEBUG:colcon.colcon_core.verb:Building package 'octobot_2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/src/octobot_2/build/octobot_2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/src/octobot_2/install/octobot_2', 'merge_install': False, 'path': '/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/src/octobot_2', 'symlink_install': True, 'test_result_base': None}
+[3.212s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[3.251s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[3.252s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/src/octobot_2' with build type 'ament_python'
+[3.252s] Level 1:colcon.colcon_core.shell:create_environment_hook('octobot_2', 'ament_prefix_path')
+[3.293s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[3.293s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/src/octobot_2/install/octobot_2/share/octobot_2/hook/ament_prefix_path.ps1'
+[3.293s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/src/octobot_2/install/octobot_2/share/octobot_2/hook/ament_prefix_path.dsv'
+[3.294s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/src/octobot_2/install/octobot_2/share/octobot_2/hook/ament_prefix_path.sh'
+[3.334s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.334s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.698s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/home/deivideich/Holonomic_Base_Simulation/ros_1_ws/devel'
+[3.736s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/home/deivideich/ros_1_ws/devel'
+[4.014s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/src/octobot_2'
+[4.057s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.057s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.416s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/home/deivideich/Holonomic_Base_Simulation/ros_1_ws/devel'
+[4.455s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/home/deivideich/ros_1_ws/devel'
+[4.908s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/src/octobot_2/build/octobot_2': PYTHONPATH=/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/src/octobot_2/build/octobot_2/prefix_override:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/src/octobot_2/install/octobot_2/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/src/octobot_2/build/octobot_2/build --no-deps install_data
+[5.426s] Level 1:colcon.colcon_core.shell:create_environment_hook('octobot_2', 'pythonpath_develop')
+[5.426s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/src/octobot_2/build/octobot_2' returned '0': PYTHONPATH=/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/src/octobot_2/build/octobot_2/prefix_override:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/src/octobot_2/install/octobot_2/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/src/octobot_2/build/octobot_2/build --no-deps install_data
+[5.482s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/src/octobot_2/build/octobot_2/share/octobot_2/hook/pythonpath_develop.ps1'
+[5.483s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/src/octobot_2/build/octobot_2/share/octobot_2/hook/pythonpath_develop.dsv'
+[5.483s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/src/octobot_2/build/octobot_2/share/octobot_2/hook/pythonpath_develop.sh'
+[5.523s] Level 1:colcon.colcon_core.environment:checking '/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/src/octobot_2/install/octobot_2' for CMake module files
+[5.524s] Level 1:colcon.colcon_core.environment:checking '/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/src/octobot_2/install/octobot_2' for CMake config files
+[5.524s] Level 1:colcon.colcon_core.environment:checking '/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/src/octobot_2/install/octobot_2/lib'
+[5.525s] Level 1:colcon.colcon_core.environment:checking '/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/src/octobot_2/install/octobot_2/bin'
+[5.525s] Level 1:colcon.colcon_core.environment:checking '/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/src/octobot_2/install/octobot_2/lib/pkgconfig/octobot_2.pc'
+[5.525s] Level 1:colcon.colcon_core.environment:checking '/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/src/octobot_2/install/octobot_2/lib/python3.8/site-packages'
+[5.525s] Level 1:colcon.colcon_core.shell:create_environment_hook('octobot_2', 'pythonpath')
+[5.564s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/src/octobot_2/install/octobot_2/share/octobot_2/hook/pythonpath.ps1'
+[5.565s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/src/octobot_2/install/octobot_2/share/octobot_2/hook/pythonpath.dsv'
+[5.565s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/src/octobot_2/install/octobot_2/share/octobot_2/hook/pythonpath.sh'
+[5.565s] Level 1:colcon.colcon_core.environment:checking '/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/src/octobot_2/install/octobot_2/bin'
+[5.565s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(octobot_2)
+[5.606s] INFO:colcon.colcon_core.shell:Creating package script '/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/src/octobot_2/install/octobot_2/share/octobot_2/package.ps1'
+[5.607s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/src/octobot_2/install/octobot_2/share/octobot_2/package.dsv'
+[5.608s] INFO:colcon.colcon_core.shell:Creating package script '/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/src/octobot_2/install/octobot_2/share/octobot_2/package.sh'
+[5.608s] INFO:colcon.colcon_core.shell:Creating package script '/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/src/octobot_2/install/octobot_2/share/octobot_2/package.bash'
+[5.609s] INFO:colcon.colcon_core.shell:Creating package script '/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/src/octobot_2/install/octobot_2/share/octobot_2/package.zsh'
+[5.610s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/src/octobot_2/install/octobot_2/share/colcon-core/packages/octobot_2)
+[5.610s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[5.610s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[5.610s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[5.610s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[5.656s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[5.656s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[5.656s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[5.670s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[5.712s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/src/octobot_2/install/local_setup.ps1'
+[5.713s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/src/octobot_2/install/_local_setup_util_ps1.py'
+[5.714s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/src/octobot_2/install/setup.ps1'
+[5.755s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/src/octobot_2/install/local_setup.sh'
+[5.756s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/src/octobot_2/install/_local_setup_util_sh.py'
+[5.756s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/src/octobot_2/install/setup.sh'
+[5.796s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/src/octobot_2/install/local_setup.bash'
+[5.796s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/src/octobot_2/install/setup.bash'
+[5.837s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/src/octobot_2/install/local_setup.zsh'
+[5.837s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/src/octobot_2/install/setup.zsh'
