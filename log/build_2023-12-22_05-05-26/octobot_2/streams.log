@@ -1,0 +1,48 @@
+[1.196s] Invoking command in '/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/src/octobot_2': PYTHONPATH=/home/deivideich/Holonomic_Base_Simulation/build/octobot_2/prefix_override:/home/deivideich/Holonomic_Base_Simulation/install/octobot_2/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/octobot_2 build --build-base /home/deivideich/Holonomic_Base_Simulation/build/octobot_2/build install --record /home/deivideich/Holonomic_Base_Simulation/build/octobot_2/install.log --install-scripts $base/lib/octobot_2 --single-version-externally-managed
+[1.368s] running egg_info
+[1.369s] creating ../../../build/octobot_2/octobot_2.egg-info
+[1.369s] writing ../../../build/octobot_2/octobot_2.egg-info/PKG-INFO
+[1.369s] writing dependency_links to ../../../build/octobot_2/octobot_2.egg-info/dependency_links.txt
+[1.369s] writing entry points to ../../../build/octobot_2/octobot_2.egg-info/entry_points.txt
+[1.369s] writing requirements to ../../../build/octobot_2/octobot_2.egg-info/requires.txt
+[1.369s] writing top-level names to ../../../build/octobot_2/octobot_2.egg-info/top_level.txt
+[1.370s] writing manifest file '../../../build/octobot_2/octobot_2.egg-info/SOURCES.txt'
+[1.396s] reading manifest file '../../../build/octobot_2/octobot_2.egg-info/SOURCES.txt'
+[1.396s] writing manifest file '../../../build/octobot_2/octobot_2.egg-info/SOURCES.txt'
+[1.396s] running build
+[1.396s] running build_py
+[1.396s] creating /home/deivideich/Holonomic_Base_Simulation/build/octobot_2/build
+[1.397s] creating /home/deivideich/Holonomic_Base_Simulation/build/octobot_2/build/lib
+[1.397s] creating /home/deivideich/Holonomic_Base_Simulation/build/octobot_2/build/lib/octobot_2
+[1.397s] copying octobot_2/__init__.py -> /home/deivideich/Holonomic_Base_Simulation/build/octobot_2/build/lib/octobot_2
+[1.397s] running install
+[1.397s] running install_lib
+[1.398s] creating /home/deivideich/Holonomic_Base_Simulation/install/octobot_2/lib/python3.8/site-packages/octobot_2
+[1.398s] copying /home/deivideich/Holonomic_Base_Simulation/build/octobot_2/build/lib/octobot_2/__init__.py -> /home/deivideich/Holonomic_Base_Simulation/install/octobot_2/lib/python3.8/site-packages/octobot_2
+[1.398s] byte-compiling /home/deivideich/Holonomic_Base_Simulation/install/octobot_2/lib/python3.8/site-packages/octobot_2/__init__.py to __init__.cpython-38.pyc
+[1.399s] running install_data
+[1.399s] creating /home/deivideich/Holonomic_Base_Simulation/install/octobot_2/share/ament_index
+[1.399s] creating /home/deivideich/Holonomic_Base_Simulation/install/octobot_2/share/ament_index/resource_index
+[1.399s] creating /home/deivideich/Holonomic_Base_Simulation/install/octobot_2/share/ament_index/resource_index/packages
+[1.400s] copying resource/octobot_2 -> /home/deivideich/Holonomic_Base_Simulation/install/octobot_2/share/ament_index/resource_index/packages
+[1.400s] copying package.xml -> /home/deivideich/Holonomic_Base_Simulation/install/octobot_2/share/octobot_2
+[1.400s] creating /home/deivideich/Holonomic_Base_Simulation/install/octobot_2/share/octobot_2/urdf
+[1.400s] copying urdf/NuevaBaseMetal2.urdf -> /home/deivideich/Holonomic_Base_Simulation/install/octobot_2/share/octobot_2/urdf
+[1.400s] creating /home/deivideich/Holonomic_Base_Simulation/install/octobot_2/share/octobot_2/launch
+[1.400s] copying launch/gazebo.launch.py -> /home/deivideich/Holonomic_Base_Simulation/install/octobot_2/share/octobot_2/launch
+[1.400s] copying launch/rsp.launch.py -> /home/deivideich/Holonomic_Base_Simulation/install/octobot_2/share/octobot_2/launch
+[1.400s] copying launch/display.launch copy.py -> /home/deivideich/Holonomic_Base_Simulation/install/octobot_2/share/octobot_2/launch
+[1.400s] creating /home/deivideich/Holonomic_Base_Simulation/install/octobot_2/share/octobot_2/meshes
+[1.400s] copying meshes/BL_Link.STL -> /home/deivideich/Holonomic_Base_Simulation/install/octobot_2/share/octobot_2/meshes
+[1.406s] copying meshes/Camera_Link.STL -> /home/deivideich/Holonomic_Base_Simulation/install/octobot_2/share/octobot_2/meshes
+[1.406s] copying meshes/Lidar_Link.STL -> /home/deivideich/Holonomic_Base_Simulation/install/octobot_2/share/octobot_2/meshes
+[1.406s] copying meshes/FR_Link.STL -> /home/deivideich/Holonomic_Base_Simulation/install/octobot_2/share/octobot_2/meshes
+[1.411s] copying meshes/BR_Link.STL -> /home/deivideich/Holonomic_Base_Simulation/install/octobot_2/share/octobot_2/meshes
+[1.418s] copying meshes/FL_Link.STL -> /home/deivideich/Holonomic_Base_Simulation/install/octobot_2/share/octobot_2/meshes
+[1.424s] copying meshes/Base_link.STL -> /home/deivideich/Holonomic_Base_Simulation/install/octobot_2/share/octobot_2/meshes
+[1.426s] creating /home/deivideich/Holonomic_Base_Simulation/install/octobot_2/share/octobot_2/worlds
+[1.426s] running install_egg_info
+[1.427s] Copying ../../../build/octobot_2/octobot_2.egg-info to /home/deivideich/Holonomic_Base_Simulation/install/octobot_2/lib/python3.8/site-packages/octobot_2-0.0.0-py3.8.egg-info
+[1.428s] running install_scripts
+[1.439s] writing list of installed files to '/home/deivideich/Holonomic_Base_Simulation/build/octobot_2/install.log'
+[1.455s] Invoked command in '/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/src/octobot_2' returned '0': PYTHONPATH=/home/deivideich/Holonomic_Base_Simulation/build/octobot_2/prefix_override:/home/deivideich/Holonomic_Base_Simulation/install/octobot_2/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/octobot_2 build --build-base /home/deivideich/Holonomic_Base_Simulation/build/octobot_2/build install --record /home/deivideich/Holonomic_Base_Simulation/build/octobot_2/install.log --install-scripts $base/lib/octobot_2 --single-version-externally-managed

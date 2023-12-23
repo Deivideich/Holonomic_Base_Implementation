@@ -1,0 +1,138 @@
+[0.000000] (-) TimerEvent: {}
+[0.000125] (NuevaBaseMetal2) JobQueued: {'identifier': 'NuevaBaseMetal2', 'dependencies': OrderedDict()}
+[0.000156] (octobot_2) JobQueued: {'identifier': 'octobot_2', 'dependencies': OrderedDict()}
+[0.000463] (NuevaBaseMetal2) JobStarted: {'identifier': 'NuevaBaseMetal2'}
+[0.099879] (-) TimerEvent: {}
+[0.200303] (-) TimerEvent: {}
+[0.300525] (-) TimerEvent: {}
+[0.319214] (octobot_2) JobStarted: {'identifier': 'octobot_2'}
+[0.401149] (-) TimerEvent: {}
+[0.501646] (-) TimerEvent: {}
+[0.602304] (-) TimerEvent: {}
+[0.676628] (NuevaBaseMetal2) JobProgress: {'identifier': 'NuevaBaseMetal2', 'progress': 'cmake'}
+[0.676946] (NuevaBaseMetal2) Command: {'cmd': ['/usr/bin/cmake', '/home/deivideich/Holonomic_Base_Simulation/ros_1_ws/src/nuevaBaseMetal2', '-DCATKIN_INSTALL_INTO_PREFIX_ROOT=0', '-DCMAKE_INSTALL_PREFIX=/home/deivideich/Holonomic_Base_Simulation/install/NuevaBaseMetal2'], 'cwd': '/home/deivideich/Holonomic_Base_Simulation/build/NuevaBaseMetal2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'deivideich'), ('LC_TIME', 'es_MX.UTF-8'), ('SSH_AGENT_PID', '2206'), ('ROS_PACKAGE_PATH', '/home/deivideich/ros_1_ws/src:/opt/ros/noetic/share'), ('XDG_SESSION_TYPE', 'x11'), ('ROS_ETC_DIR', '/opt/ros/noetic/etc/ros'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/home/deivideich/Holonomic_Base_Simulation/ros_1_ws/devel/lib:/home/deivideich/ros_1_ws/devel/lib:/opt/ros/noetic/lib:/opt/ros/noetic/lib/x86_64-linux-gnu'), ('HOME', '/home/deivideich'), ('OLDPWD', '/home/deivideich/Holonomic_Base_Simulation/ros_2_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_MX.UTF-8'), ('MANAGERPID', '1949'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4143'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install:/home/deivideich/articubot_example/install:/home/deivideich/ros_2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'deivideich'), ('JOURNAL_STREAM', '8:44977'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/deivideich/Holonomic_Base_Simulation/ros_1_ws/devel/lib/pkgconfig:/home/deivideich/ros_1_ws/devel/lib/pkgconfig:/opt/ros/noetic/lib/pkgconfig:/opt/ros/noetic/lib/x86_64-linux-gnu/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'deivideich'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/opt/ros/noetic/bin:/home/deivideich/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/deivideich-ROG-Zephyrus-G14-GA401QM-GA401QM:@/tmp/.ICE-unix/2280,unix/deivideich-ROG-Zephyrus-G14-GA401QM-GA401QM:/tmp/.ICE-unix/2280'), ('INVOCATION_ID', '5dde7b77bca34a7aa6ee144efd25aa70'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_MX.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_MX.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('ROSLISP_PACKAGE_DIRECTORIES', '/home/deivideich/ros_1_ws/devel/share/common-lisp'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/noetic/share/ros'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/octobot_2:/home/deivideich/articubot_example/install/articubot_one:/home/deivideich/ros_2_ws/install/octobot_2:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_MX.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:ded4bc17-269d-4a75-9d4d-f2100d6060a8'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_MX.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'es_MX.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/deivideich/Holonomic_Base_Simulation/build/NuevaBaseMetal2'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/octobot_2/lib/python3.8/site-packages:/home/deivideich/ros_2_ws/install/octobot_2/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/opt/ros/noetic/lib/python3/dist-packages'), ('LC_NUMERIC', 'es_MX.UTF-8'), ('LC_PAPER', 'es_MX.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/deivideich/articubot_example/install/articubot_one:/home/deivideich/Holonomic_Base_Simulation/ros_1_ws/devel:/home/deivideich/ros_1_ws/devel:/opt/ros/noetic')]), 'shell': False}
+[0.702434] (-) TimerEvent: {}
+[0.762355] (NuevaBaseMetal2) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.802501] (-) TimerEvent: {}
+[0.823733] (NuevaBaseMetal2) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.829538] (NuevaBaseMetal2) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.886813] (NuevaBaseMetal2) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.887976] (NuevaBaseMetal2) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.902678] (-) TimerEvent: {}
+[0.946128] (NuevaBaseMetal2) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.957623] (NuevaBaseMetal2) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.957982] (NuevaBaseMetal2) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.960998] (NuevaBaseMetal2) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[1.002845] (-) TimerEvent: {}
+[1.023175] (NuevaBaseMetal2) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[1.024177] (NuevaBaseMetal2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.088002] (NuevaBaseMetal2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.099747] (NuevaBaseMetal2) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.100235] (NuevaBaseMetal2) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.102240] (NuevaBaseMetal2) StdoutLine: {'line': b'-- Using CATKIN_DEVEL_PREFIX: /home/deivideich/Holonomic_Base_Simulation/build/NuevaBaseMetal2/devel\n'}
+[1.103062] (-) TimerEvent: {}
+[1.103324] (NuevaBaseMetal2) StdoutLine: {'line': b'-- Using CMAKE_PREFIX_PATH: /home/deivideich/articubot_example/install/articubot_one;/home/deivideich/Holonomic_Base_Simulation/ros_1_ws/devel;/home/deivideich/ros_1_ws/devel;/opt/ros/noetic\n'}
+[1.104093] (NuevaBaseMetal2) StdoutLine: {'line': b'-- This workspace overlays: /home/deivideich/Holonomic_Base_Simulation/ros_1_ws/devel;/home/deivideich/ros_1_ws/devel;/opt/ros/noetic\n'}
+[1.124798] (NuevaBaseMetal2) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[1.125081] (NuevaBaseMetal2) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.125141] (NuevaBaseMetal2) StdoutLine: {'line': b'-- Using Debian Python package layout\n'}
+[1.150118] (NuevaBaseMetal2) StdoutLine: {'line': b'-- Found PY_em: /usr/lib/python3/dist-packages/em.py  \n'}
+[1.150563] (NuevaBaseMetal2) StdoutLine: {'line': b'-- Using empy: /usr/lib/python3/dist-packages/em.py\n'}
+[1.203175] (-) TimerEvent: {}
+[1.237669] (NuevaBaseMetal2) StdoutLine: {'line': b'-- Using CATKIN_ENABLE_TESTING: ON\n'}
+[1.237862] (NuevaBaseMetal2) StdoutLine: {'line': b'-- Call enable_testing()\n'}
+[1.239710] (NuevaBaseMetal2) StdoutLine: {'line': b'-- Using CATKIN_TEST_RESULTS_DIR: /home/deivideich/Holonomic_Base_Simulation/build/NuevaBaseMetal2/test_results\n'}
+[1.303325] (-) TimerEvent: {}
+[1.403578] (-) TimerEvent: {}
+[1.502570] (NuevaBaseMetal2) StdoutLine: {'line': b'-- Forcing gtest/gmock from source, though one was otherwise available.\n'}
+[1.502759] (NuevaBaseMetal2) StdoutLine: {'line': b"-- Found gtest sources under '/usr/src/googletest': gtests will be built\n"}
+[1.502820] (NuevaBaseMetal2) StdoutLine: {'line': b"-- Found gmock sources under '/usr/src/googletest': gmock will be built\n"}
+[1.503633] (-) TimerEvent: {}
+[1.513764] (octobot_2) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../../build/octobot_2', 'build', '--build-base', '/home/deivideich/Holonomic_Base_Simulation/build/octobot_2/build', 'install', '--record', '/home/deivideich/Holonomic_Base_Simulation/build/octobot_2/install.log', '--install-scripts', '$base/lib/octobot_2', '--single-version-externally-managed'], 'cwd': '/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/src/octobot_2', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'deivideich', 'LC_TIME': 'es_MX.UTF-8', 'SSH_AGENT_PID': '2206', 'ROS_PACKAGE_PATH': '/home/deivideich/ros_1_ws/src:/opt/ros/noetic/share', 'XDG_SESSION_TYPE': 'x11', 'ROS_ETC_DIR': '/opt/ros/noetic/etc/ros', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/home/deivideich/Holonomic_Base_Simulation/ros_1_ws/devel/lib:/home/deivideich/ros_1_ws/devel/lib:/opt/ros/noetic/lib:/opt/ros/noetic/lib/x86_64-linux-gnu', 'HOME': '/home/deivideich', 'OLDPWD': '/home/deivideich/Holonomic_Base_Simulation/ros_2_ws', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'es_MX.UTF-8', 'MANAGERPID': '1949', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '4143', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install:/home/deivideich/articubot_example/install:/home/deivideich/ros_2_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'deivideich', 'JOURNAL_STREAM': '8:44977', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/deivideich/Holonomic_Base_Simulation/ros_1_ws/devel/lib/pkgconfig:/home/deivideich/ros_1_ws/devel/lib/pkgconfig:/opt/ros/noetic/lib/pkgconfig:/opt/ros/noetic/lib/x86_64-linux-gnu/pkgconfig', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'deivideich', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/opt/ros/noetic/bin:/home/deivideich/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/deivideich-ROG-Zephyrus-G14-GA401QM-GA401QM:@/tmp/.ICE-unix/2280,unix/deivideich-ROG-Zephyrus-G14-GA401QM-GA401QM:/tmp/.ICE-unix/2280', 'INVOCATION_ID': '5dde7b77bca34a7aa6ee144efd25aa70', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'es_MX.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'es_MX.UTF-8', 'XMODIFIERS': '@im=ibus', 'ROSLISP_PACKAGE_DIRECTORIES': '/home/deivideich/ros_1_ws/devel/share/common-lisp', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_ROOT': '/opt/ros/noetic/share/ros', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/octobot_2:/home/deivideich/articubot_example/install/articubot_one:/home/deivideich/ros_2_ws/install/octobot_2:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'es_MX.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:ded4bc17-269d-4a75-9d4d-f2100d6060a8', 'QT_ACCESSIBILITY': '1', 'ROS_MASTER_URI': 'http://localhost:11311', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'es_MX.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'es_MX.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/deivideich/Holonomic_Base_Simulation/build/octobot_2', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/deivideich/Holonomic_Base_Simulation/build/octobot_2/prefix_override:/home/deivideich/Holonomic_Base_Simulation/install/octobot_2/lib/python3.8/site-packages:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/octobot_2/lib/python3.8/site-packages:/home/deivideich/ros_2_ws/install/octobot_2/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/opt/ros/noetic/lib/python3/dist-packages', 'LC_NUMERIC': 'es_MX.UTF-8', 'LC_PAPER': 'es_MX.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/deivideich/articubot_example/install/articubot_one:/home/deivideich/Holonomic_Base_Simulation/ros_1_ws/devel:/home/deivideich/ros_1_ws/devel:/opt/ros/noetic'}, 'shell': False}
+[1.526018] (NuevaBaseMetal2) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[1.527702] (NuevaBaseMetal2) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.531851] (NuevaBaseMetal2) StdoutLine: {'line': b'-- Using Python nosetests: /usr/bin/nosetests3\n'}
+[1.578198] (NuevaBaseMetal2) StdoutLine: {'line': b'-- catkin 0.8.10\n'}
+[1.578412] (NuevaBaseMetal2) StdoutLine: {'line': b'-- BUILD_SHARED_LIBS is on\n'}
+[1.603763] (-) TimerEvent: {}
+[1.687543] (octobot_2) StdoutLine: {'line': b'running egg_info\n'}
+[1.687829] (octobot_2) StdoutLine: {'line': b'creating ../../../build/octobot_2/octobot_2.egg-info\n'}
+[1.687938] (octobot_2) StdoutLine: {'line': b'writing ../../../build/octobot_2/octobot_2.egg-info/PKG-INFO\n'}
+[1.688106] (octobot_2) StdoutLine: {'line': b'writing dependency_links to ../../../build/octobot_2/octobot_2.egg-info/dependency_links.txt\n'}
+[1.688214] (octobot_2) StdoutLine: {'line': b'writing entry points to ../../../build/octobot_2/octobot_2.egg-info/entry_points.txt\n'}
+[1.688306] (octobot_2) StdoutLine: {'line': b'writing requirements to ../../../build/octobot_2/octobot_2.egg-info/requires.txt\n'}
+[1.688365] (octobot_2) StdoutLine: {'line': b'writing top-level names to ../../../build/octobot_2/octobot_2.egg-info/top_level.txt\n'}
+[1.689223] (octobot_2) StdoutLine: {'line': b"writing manifest file '../../../build/octobot_2/octobot_2.egg-info/SOURCES.txt'\n"}
+[1.703876] (-) TimerEvent: {}
+[1.714851] (octobot_2) StdoutLine: {'line': b"reading manifest file '../../../build/octobot_2/octobot_2.egg-info/SOURCES.txt'\n"}
+[1.715388] (octobot_2) StdoutLine: {'line': b"writing manifest file '../../../build/octobot_2/octobot_2.egg-info/SOURCES.txt'\n"}
+[1.715499] (octobot_2) StdoutLine: {'line': b'running build\n'}
+[1.715562] (octobot_2) StdoutLine: {'line': b'running build_py\n'}
+[1.715650] (octobot_2) StdoutLine: {'line': b'creating /home/deivideich/Holonomic_Base_Simulation/build/octobot_2/build\n'}
+[1.715718] (octobot_2) StdoutLine: {'line': b'creating /home/deivideich/Holonomic_Base_Simulation/build/octobot_2/build/lib\n'}
+[1.715770] (octobot_2) StdoutLine: {'line': b'creating /home/deivideich/Holonomic_Base_Simulation/build/octobot_2/build/lib/octobot_2\n'}
+[1.715825] (octobot_2) StdoutLine: {'line': b'copying octobot_2/__init__.py -> /home/deivideich/Holonomic_Base_Simulation/build/octobot_2/build/lib/octobot_2\n'}
+[1.715891] (octobot_2) StdoutLine: {'line': b'running install\n'}
+[1.716336] (octobot_2) StdoutLine: {'line': b'running install_lib\n'}
+[1.717054] (octobot_2) StdoutLine: {'line': b'creating /home/deivideich/Holonomic_Base_Simulation/install/octobot_2/lib/python3.8/site-packages/octobot_2\n'}
+[1.717161] (octobot_2) StdoutLine: {'line': b'copying /home/deivideich/Holonomic_Base_Simulation/build/octobot_2/build/lib/octobot_2/__init__.py -> /home/deivideich/Holonomic_Base_Simulation/install/octobot_2/lib/python3.8/site-packages/octobot_2\n'}
+[1.717431] (octobot_2) StdoutLine: {'line': b'byte-compiling /home/deivideich/Holonomic_Base_Simulation/install/octobot_2/lib/python3.8/site-packages/octobot_2/__init__.py to __init__.cpython-38.pyc\n'}
+[1.718149] (octobot_2) StdoutLine: {'line': b'running install_data\n'}
+[1.718546] (octobot_2) StdoutLine: {'line': b'creating /home/deivideich/Holonomic_Base_Simulation/install/octobot_2/share/ament_index\n'}
+[1.718632] (octobot_2) StdoutLine: {'line': b'creating /home/deivideich/Holonomic_Base_Simulation/install/octobot_2/share/ament_index/resource_index\n'}
+[1.718687] (octobot_2) StdoutLine: {'line': b'creating /home/deivideich/Holonomic_Base_Simulation/install/octobot_2/share/ament_index/resource_index/packages\n'}
+[1.718741] (octobot_2) StdoutLine: {'line': b'copying resource/octobot_2 -> /home/deivideich/Holonomic_Base_Simulation/install/octobot_2/share/ament_index/resource_index/packages\n'}
+[1.718825] (octobot_2) StdoutLine: {'line': b'copying package.xml -> /home/deivideich/Holonomic_Base_Simulation/install/octobot_2/share/octobot_2\n'}
+[1.718879] (octobot_2) StdoutLine: {'line': b'creating /home/deivideich/Holonomic_Base_Simulation/install/octobot_2/share/octobot_2/urdf\n'}
+[1.718931] (octobot_2) StdoutLine: {'line': b'copying urdf/NuevaBaseMetal2.urdf -> /home/deivideich/Holonomic_Base_Simulation/install/octobot_2/share/octobot_2/urdf\n'}
+[1.719012] (octobot_2) StdoutLine: {'line': b'creating /home/deivideich/Holonomic_Base_Simulation/install/octobot_2/share/octobot_2/launch\n'}
+[1.719064] (octobot_2) StdoutLine: {'line': b'copying launch/gazebo.launch.py -> /home/deivideich/Holonomic_Base_Simulation/install/octobot_2/share/octobot_2/launch\n'}
+[1.719115] (octobot_2) StdoutLine: {'line': b'copying launch/rsp.launch.py -> /home/deivideich/Holonomic_Base_Simulation/install/octobot_2/share/octobot_2/launch\n'}
+[1.719202] (octobot_2) StdoutLine: {'line': b'copying launch/display.launch copy.py -> /home/deivideich/Holonomic_Base_Simulation/install/octobot_2/share/octobot_2/launch\n'}
+[1.719255] (octobot_2) StdoutLine: {'line': b'creating /home/deivideich/Holonomic_Base_Simulation/install/octobot_2/share/octobot_2/meshes\n'}
+[1.719303] (octobot_2) StdoutLine: {'line': b'copying meshes/BL_Link.STL -> /home/deivideich/Holonomic_Base_Simulation/install/octobot_2/share/octobot_2/meshes\n'}
+[1.725104] (octobot_2) StdoutLine: {'line': b'copying meshes/Camera_Link.STL -> /home/deivideich/Holonomic_Base_Simulation/install/octobot_2/share/octobot_2/meshes\n'}
+[1.725195] (octobot_2) StdoutLine: {'line': b'copying meshes/Lidar_Link.STL -> /home/deivideich/Holonomic_Base_Simulation/install/octobot_2/share/octobot_2/meshes\n'}
+[1.725265] (octobot_2) StdoutLine: {'line': b'copying meshes/FR_Link.STL -> /home/deivideich/Holonomic_Base_Simulation/install/octobot_2/share/octobot_2/meshes\n'}
+[1.730555] (octobot_2) StdoutLine: {'line': b'copying meshes/BR_Link.STL -> /home/deivideich/Holonomic_Base_Simulation/install/octobot_2/share/octobot_2/meshes\n'}
+[1.736851] (octobot_2) StdoutLine: {'line': b'copying meshes/FL_Link.STL -> /home/deivideich/Holonomic_Base_Simulation/install/octobot_2/share/octobot_2/meshes\n'}
+[1.743149] (octobot_2) StdoutLine: {'line': b'copying meshes/Base_link.STL -> /home/deivideich/Holonomic_Base_Simulation/install/octobot_2/share/octobot_2/meshes\n'}
+[1.744848] (octobot_2) StdoutLine: {'line': b'creating /home/deivideich/Holonomic_Base_Simulation/install/octobot_2/share/octobot_2/worlds\n'}
+[1.744978] (octobot_2) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.746222] (octobot_2) StdoutLine: {'line': b'Copying ../../../build/octobot_2/octobot_2.egg-info to /home/deivideich/Holonomic_Base_Simulation/install/octobot_2/lib/python3.8/site-packages/octobot_2-0.0.0-py3.8.egg-info\n'}
+[1.746783] (octobot_2) StdoutLine: {'line': b'running install_scripts\n'}
+[1.758455] (octobot_2) StdoutLine: {'line': b"writing list of installed files to '/home/deivideich/Holonomic_Base_Simulation/build/octobot_2/install.log'\n"}
+[1.774065] (octobot_2) CommandEnded: {'returncode': 0}
+[1.798387] (NuevaBaseMetal2) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[1.798568] (NuevaBaseMetal2) StderrLine: {'line': b'  File "/home/deivideich/Holonomic_Base_Simulation/build/NuevaBaseMetal2/catkin_generated/generate_cached_setup.py", line 22, in <module>\n'}
+[1.798644] (NuevaBaseMetal2) StderrLine: {'line': b"    code = generate_environment_script('/home/deivideich/Holonomic_Base_Simulation/build/NuevaBaseMetal2/devel/env.sh')\n"}
+[1.798704] (NuevaBaseMetal2) StderrLine: {'line': b'  File "/opt/ros/noetic/lib/python3/dist-packages/catkin/environment_cache.py", line 63, in generate_environment_script\n'}
+[1.798758] (NuevaBaseMetal2) StderrLine: {'line': b"    env_after = ast.literal_eval(output.decode('utf8'))\n"}
+[1.799013] (NuevaBaseMetal2) StderrLine: {'line': b'  File "/usr/lib/python3.8/ast.py", line 59, in literal_eval\n'}
+[1.799085] (NuevaBaseMetal2) StderrLine: {'line': b"    node_or_string = parse(node_or_string, mode='eval')\n"}
+[1.799295] (NuevaBaseMetal2) StderrLine: {'line': b'  File "/usr/lib/python3.8/ast.py", line 47, in parse\n'}
+[1.799351] (NuevaBaseMetal2) StderrLine: {'line': b'    return compile(source, filename, mode, flags,\n'}
+[1.799430] (NuevaBaseMetal2) StderrLine: {'line': b'  File "<unknown>", line 1\n'}
+[1.799494] (NuevaBaseMetal2) StderrLine: {'line': b"    ROS_DISTRO was set to 'foxy' before. Please make sure that the environment does not mix paths from different distributions.\n"}
+[1.799545] (NuevaBaseMetal2) StderrLine: {'line': b'               ^\n'}
+[1.799593] (NuevaBaseMetal2) StderrLine: {'line': b'SyntaxError: invalid syntax\n'}
+[1.803979] (-) TimerEvent: {}
+[1.815828] (NuevaBaseMetal2) StderrLine: {'line': b'CMake Error at /opt/ros/noetic/share/catkin/cmake/safe_execute_process.cmake:11 (message):\n'}
+[1.816201] (NuevaBaseMetal2) StderrLine: {'line': b'  execute_process(/usr/bin/python3\n'}
+[1.816358] (NuevaBaseMetal2) StderrLine: {'line': b'  "/home/deivideich/Holonomic_Base_Simulation/build/NuevaBaseMetal2/catkin_generated/generate_cached_setup.py")\n'}
+[1.816842] (NuevaBaseMetal2) StderrLine: {'line': b'  returned error code 1\n'}
+[1.817082] (NuevaBaseMetal2) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.817386] (NuevaBaseMetal2) StderrLine: {'line': b'  /opt/ros/noetic/share/catkin/cmake/all.cmake:208 (safe_execute_process)\n'}
+[1.817561] (NuevaBaseMetal2) StderrLine: {'line': b'  /opt/ros/noetic/share/catkin/cmake/catkinConfig.cmake:20 (include)\n'}
+[1.817712] (NuevaBaseMetal2) StderrLine: {'line': b'  CMakeLists.txt:5 (find_package)\n'}
+[1.817881] (NuevaBaseMetal2) StderrLine: {'line': b'\n'}
+[1.818054] (NuevaBaseMetal2) StderrLine: {'line': b'\n'}
+[1.818199] (NuevaBaseMetal2) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.819188] (NuevaBaseMetal2) StdoutLine: {'line': b'See also "/home/deivideich/Holonomic_Base_Simulation/build/NuevaBaseMetal2/CMakeFiles/CMakeOutput.log".\n'}
+[1.819395] (NuevaBaseMetal2) StdoutLine: {'line': b'See also "/home/deivideich/Holonomic_Base_Simulation/build/NuevaBaseMetal2/CMakeFiles/CMakeError.log".\n'}
+[1.904530] (-) TimerEvent: {}
+[1.910001] (octobot_2) JobEnded: {'identifier': 'octobot_2', 'rc': 0}
+[1.910679] (NuevaBaseMetal2) CommandEnded: {'returncode': 1}
+[2.002090] (NuevaBaseMetal2) JobEnded: {'identifier': 'NuevaBaseMetal2', 'rc': 1}
+[2.004714] (-) TimerEvent: {}
+[2.013701] (-) EventReactorShutdown: {}
