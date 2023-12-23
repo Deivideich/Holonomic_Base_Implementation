@@ -1,0 +1,135 @@
+[0.909s] Invoking command in '/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/build/nav2_behavior_tree': AMENT_PREFIX_PATH=/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_util:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_msgs:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_util:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_msgs:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_common:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/octobot_2:/opt/ros/foxy:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_util/lib:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/build/nav2_behavior_tree -- -j16 -l16
+[0.985s] [  2%] Built target nav2_pipeline_sequence_bt_node
+[0.989s] [  4%] Built target nav2_wait_action_bt_node
+[0.994s] [ 10%] Built target nav2_compute_path_to_pose_action_bt_node
+[0.994s] [ 10%] Built target nav2_transform_available_condition_bt_node
+[0.994s] [ 10%] Built target nav2_spin_action_bt_node
+[0.994s] [ 12%] Built target nav2_behavior_tree
+[0.996s] [ 14%] Built target nav2_goal_updated_condition_bt_node
+[0.996s] [ 16%] Built target nav2_goal_updater_node_bt_node
+[0.997s] [ 18%] Built target nav2_is_stuck_condition_bt_node
+[0.998s] [ 20%] Built target nav2_follow_path_action_bt_node
+[1.003s] [ 26%] Built target nav2_initial_pose_received_condition_bt_node
+[1.004s] [ 26%] Built target nav2_goal_reached_condition_bt_node
+[1.004s] [ 26%] Built target nav2_time_expired_condition_bt_node
+[1.004s] [ 28%] Built target nav2_is_battery_low_condition_bt_node
+[1.006s] [ 30%] Built target nav2_distance_traveled_condition_bt_node
+[1.007s] [ 32%] Built target nav2_reinitialize_global_localization_service_bt_node
+[1.040s] [ 34%] Built target nav2_rate_controller_bt_node
+[1.043s] [ 36%] Built target nav2_round_robin_node_bt_node
+[1.051s] [ 40%] Built target nav2_distance_controller_bt_node
+[1.052s] [ 40%] Built target nav2_speed_controller_bt_node
+[1.052s] [ 42%] Built target nav2_truncate_path_action_bt_node
+[1.053s] [ 44%] Built target nav2_navigate_to_pose_action_bt_node
+[1.054s] [ 46%] Built target nav2_clear_costmap_service_bt_node
+[1.055s] [ 48%] Built target gtest
+[1.058s] [ 51%] Built target nav2_recovery_node_bt_node
+[1.064s] [ 53%] Built target gtest_main
+[1.064s] [ 55%] Built target nav2_back_up_action_bt_node
+[1.109s] [ 61%] Built target test_condition_time_expired
+[1.109s] [ 61%] Built target test_condition_distance_traveled
+[1.109s] [ 61%] Built target test_condition_initial_pose_received
+[1.109s] [ 63%] Built target test_bt_conversions
+[1.111s] [ 65%] Built target test_condition_transform_available
+[1.111s] [ 67%] Built target test_condition_is_stuck
+[1.112s] [ 69%] Built target test_condition_goal_updated
+[1.116s] [ 71%] Built target test_condition_is_battery_low
+[1.117s] [ 73%] Built target test_goal_updater_node
+[1.117s] [ 75%] Built target test_condition_goal_reached
+[1.123s] [ 77%] Built target test_decorator_rate_controller
+[1.125s] [ 79%] Built target test_decorator_speed_controller
+[1.125s] [ 81%] Built target test_decorator_distance_controller
+[1.138s] [ 85%] Built target test_control_recovery_node
+[1.139s] [ 85%] Built target test_control_round_robin_node
+[1.139s] [ 87%] Built target test_control_pipeline_sequence
+[1.142s] [ 89%] Built target test_action_clear_costmap_service
+[1.144s] [ 93%] Built target test_action_reinitialize_global_localization_service
+[1.144s] [ 93%] Built target test_action_compute_path_to_pose_action
+[1.145s] [ 95%] Built target test_action_navigate_to_pose_action
+[1.145s] [ 97%] Built target test_action_follow_path_action
+[1.146s] [100%] Built target test_truncate_path_action
+[1.258s] Invoked command in '/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/build/nav2_behavior_tree' returned '0': AMENT_PREFIX_PATH=/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_util:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_msgs:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_util:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_msgs:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_common:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/octobot_2:/opt/ros/foxy:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_util/lib:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/build/nav2_behavior_tree -- -j16 -l16
+[1.723s] Invoking command in '/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/build/nav2_behavior_tree': AMENT_PREFIX_PATH=/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_util:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_msgs:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_util:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_msgs:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_common:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/octobot_2:/opt/ros/foxy:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_util/lib:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/build/nav2_behavior_tree
+[1.731s] -- Install configuration: "Release"
+[1.731s] -- Up-to-date: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_behavior_tree/lib/libnav2_behavior_tree.so
+[1.731s] -- Up-to-date: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_behavior_tree/lib/libnav2_compute_path_to_pose_action_bt_node.so
+[1.731s] -- Up-to-date: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_behavior_tree/lib/libnav2_follow_path_action_bt_node.so
+[1.732s] -- Up-to-date: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_behavior_tree/lib/libnav2_back_up_action_bt_node.so
+[1.732s] -- Up-to-date: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_behavior_tree/lib/libnav2_spin_action_bt_node.so
+[1.734s] -- Up-to-date: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_behavior_tree/lib/libnav2_wait_action_bt_node.so
+[1.734s] -- Up-to-date: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_behavior_tree/lib/libnav2_clear_costmap_service_bt_node.so
+[1.735s] -- Up-to-date: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_behavior_tree/lib/libnav2_is_stuck_condition_bt_node.so
+[1.737s] -- Up-to-date: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_behavior_tree/lib/libnav2_transform_available_condition_bt_node.so
+[1.737s] -- Up-to-date: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_behavior_tree/lib/libnav2_goal_reached_condition_bt_node.so
+[1.739s] -- Up-to-date: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_behavior_tree/lib/libnav2_goal_updated_condition_bt_node.so
+[1.739s] -- Up-to-date: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_behavior_tree/lib/libnav2_time_expired_condition_bt_node.so
+[1.739s] -- Up-to-date: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_behavior_tree/lib/libnav2_distance_traveled_condition_bt_node.so
+[1.741s] -- Up-to-date: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_behavior_tree/lib/libnav2_initial_pose_received_condition_bt_node.so
+[1.741s] -- Up-to-date: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_behavior_tree/lib/libnav2_is_battery_low_condition_bt_node.so
+[1.741s] -- Up-to-date: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_behavior_tree/lib/libnav2_reinitialize_global_localization_service_bt_node.so
+[1.741s] -- Up-to-date: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_behavior_tree/lib/libnav2_rate_controller_bt_node.so
+[1.743s] -- Up-to-date: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_behavior_tree/lib/libnav2_distance_controller_bt_node.so
+[1.744s] -- Up-to-date: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_behavior_tree/lib/libnav2_speed_controller_bt_node.so
+[1.744s] -- Up-to-date: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_behavior_tree/lib/libnav2_truncate_path_action_bt_node.so
+[1.744s] -- Up-to-date: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_behavior_tree/lib/libnav2_goal_updater_node_bt_node.so
+[1.745s] -- Up-to-date: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_behavior_tree/lib/libnav2_recovery_node_bt_node.so
+[1.745s] -- Up-to-date: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_behavior_tree/lib/libnav2_navigate_to_pose_action_bt_node.so
+[1.745s] -- Up-to-date: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_behavior_tree/lib/libnav2_pipeline_sequence_bt_node.so
+[1.745s] -- Up-to-date: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_behavior_tree/lib/libnav2_round_robin_node_bt_node.so
+[1.745s] -- Up-to-date: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_behavior_tree/include/
+[1.745s] -- Up-to-date: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree
+[1.745s] -- Up-to-date: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/behavior_tree_engine.hpp
+[1.745s] -- Up-to-date: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/bt_service_node.hpp
+[1.745s] -- Up-to-date: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/bt_conversions.hpp
+[1.745s] -- Up-to-date: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins
+[1.745s] -- Up-to-date: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition
+[1.745s] -- Up-to-date: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/goal_reached_condition.hpp
+[1.745s] -- Up-to-date: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/initial_pose_received_condition.hpp
+[1.745s] -- Up-to-date: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/transform_available_condition.hpp
+[1.745s] -- Up-to-date: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/goal_updated_condition.hpp
+[1.745s] -- Up-to-date: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/is_battery_low_condition.hpp
+[1.745s] -- Up-to-date: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/distance_traveled_condition.hpp
+[1.746s] -- Up-to-date: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/is_stuck_condition.hpp
+[1.746s] -- Up-to-date: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/time_expired_condition.hpp
+[1.746s] -- Up-to-date: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/decorator
+[1.746s] -- Up-to-date: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/decorator/rate_controller.hpp
+[1.746s] -- Up-to-date: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/decorator/distance_controller.hpp
+[1.746s] -- Up-to-date: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/decorator/speed_controller.hpp
+[1.746s] -- Up-to-date: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/decorator/goal_updater_node.hpp
+[1.746s] -- Up-to-date: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action
+[1.746s] -- Up-to-date: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/truncate_path_action.hpp
+[1.746s] -- Up-to-date: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/spin_action.hpp
+[1.746s] -- Up-to-date: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/follow_path_action.hpp
+[1.746s] -- Up-to-date: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/clear_costmap_service.hpp
+[1.746s] -- Up-to-date: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/wait_action.hpp
+[1.746s] -- Up-to-date: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/compute_path_to_pose_action.hpp
+[1.747s] -- Up-to-date: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/back_up_action.hpp
+[1.747s] -- Up-to-date: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/navigate_to_pose_action.hpp
+[1.747s] -- Up-to-date: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/reinitialize_global_localization_service.hpp
+[1.747s] -- Up-to-date: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/control
+[1.747s] -- Up-to-date: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/control/round_robin_node.hpp
+[1.747s] -- Up-to-date: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/control/pipeline_sequence.hpp
+[1.747s] -- Up-to-date: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/control/recovery_node.hpp
+[1.747s] -- Up-to-date: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/bt_action_node.hpp
+[1.747s] -- Up-to-date: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/nav2_tree_nodes.xml
+[1.747s] -- Up-to-date: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/environment/library_path.sh
+[1.747s] -- Up-to-date: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/environment/library_path.dsv
+[1.747s] -- Up-to-date: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_behavior_tree/share/ament_index/resource_index/package_run_dependencies/nav2_behavior_tree
+[1.747s] -- Up-to-date: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_behavior_tree/share/ament_index/resource_index/parent_prefix_path/nav2_behavior_tree
+[1.747s] -- Up-to-date: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/environment/ament_prefix_path.sh
+[1.748s] -- Up-to-date: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/environment/ament_prefix_path.dsv
+[1.748s] -- Up-to-date: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/environment/path.sh
+[1.748s] -- Up-to-date: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/environment/path.dsv
+[1.748s] -- Up-to-date: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/local_setup.bash
+[1.748s] -- Up-to-date: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/local_setup.sh
+[1.748s] -- Up-to-date: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/local_setup.zsh
+[1.748s] -- Up-to-date: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/local_setup.dsv
+[1.748s] -- Installing: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/package.dsv
+[1.748s] -- Up-to-date: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_behavior_tree/share/ament_index/resource_index/packages/nav2_behavior_tree
+[1.748s] -- Up-to-date: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.748s] -- Up-to-date: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/cmake/ament_cmake_export_libraries-extras.cmake
+[1.748s] -- Up-to-date: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.748s] -- Up-to-date: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/cmake/nav2_behavior_treeConfig.cmake
+[1.748s] -- Up-to-date: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/cmake/nav2_behavior_treeConfig-version.cmake
+[1.748s] -- Up-to-date: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/package.xml
+[2.376s] Invoked command in '/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/build/nav2_behavior_tree' returned '0': AMENT_PREFIX_PATH=/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_util:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_msgs:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_util:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_msgs:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_common:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/octobot_2:/opt/ros/foxy:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_util/lib:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/build/nav2_behavior_tree

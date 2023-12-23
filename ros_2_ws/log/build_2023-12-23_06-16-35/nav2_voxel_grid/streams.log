@@ -1,0 +1,69 @@
+[0.185s] Invoking command in '/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/build/nav2_voxel_grid': AMENT_PREFIX_PATH=/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_common:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/octobot_2:/opt/ros/foxy:${CMAKE_PREFIX_PATH} PYTHONPATH=/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/build/nav2_voxel_grid -- -j16 -l16
+[0.204s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.225s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.392s] -- Found nav2_common: 0.4.7 (/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_common/share/nav2_common/cmake)
+[0.393s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.417s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.419s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.509s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.545s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.546s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.654s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.702s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[0.709s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.709s] -- Configured cppcheck include dirs: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/navigation2/nav2_voxel_grid/include
+[0.710s] -- Configured cppcheck exclude dirs and/or files: 
+[0.710s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.710s] -- Configured cpplint exclude dirs and/or files: 
+[0.710s] -- Added test 'lint_cmake' to check CMake code style
+[0.711s] -- Added test 'uncrustify' to check C / C++ code style
+[0.711s] -- Configured uncrustify additional arguments: 
+[0.712s] -- Added test 'xmllint' to check XML markup files
+[0.714s] -- Configuring done
+[0.725s] -- Generating done
+[0.726s] -- Build files have been written to: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/build/nav2_voxel_grid
+[0.747s] [35m[1mScanning dependencies of target gtest_main[0m
+[0.748s] [35m[1mScanning dependencies of target gtest[0m
+[0.748s] [35m[1mScanning dependencies of target voxel_grid[0m
+[0.758s] [ 12%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[0.759s] [ 25%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[0.774s] [ 37%] [32mBuilding CXX object CMakeFiles/voxel_grid.dir/src/voxel_grid.cpp.o[0m
+[1.305s] [ 50%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[1.331s] [ 50%] Built target gtest_main
+[2.303s] [ 62%] [32m[1mLinking CXX shared library libvoxel_grid.so[0m
+[2.406s] [ 62%] Built target voxel_grid
+[9.168s] [ 75%] [32m[1mLinking CXX static library libgtest.a[0m
+[9.374s] [ 75%] Built target gtest
+[9.452s] [35m[1mScanning dependencies of target voxel_grid_tests[0m
+[9.602s] [ 87%] [32mBuilding CXX object test/CMakeFiles/voxel_grid_tests.dir/voxel_grid_tests.cpp.o[0m
+[12.144s] [100%] [32m[1mLinking CXX executable voxel_grid_tests[0m
+[12.229s] [100%] Built target voxel_grid_tests
+[12.284s] Invoked command in '/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/build/nav2_voxel_grid' returned '0': AMENT_PREFIX_PATH=/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_common:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/octobot_2:/opt/ros/foxy:${CMAKE_PREFIX_PATH} PYTHONPATH=/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/build/nav2_voxel_grid -- -j16 -l16
+[12.302s] Invoking command in '/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/build/nav2_voxel_grid': AMENT_PREFIX_PATH=/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_common:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/octobot_2:/opt/ros/foxy:${CMAKE_PREFIX_PATH} PYTHONPATH=/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/build/nav2_voxel_grid
+[12.309s] -- Install configuration: "Release"
+[12.309s] -- Installing: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_voxel_grid/lib/libvoxel_grid.so
+[12.309s] -- Set runtime path of "/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_voxel_grid/lib/libvoxel_grid.so" to ""
+[12.309s] -- Installing: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_voxel_grid/include
+[12.309s] -- Installing: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_voxel_grid/include/nav2_voxel_grid
+[12.309s] -- Installing: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_voxel_grid/include/nav2_voxel_grid/voxel_grid.hpp
+[12.310s] -- Installing: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/library_path.sh
+[12.310s] -- Installing: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/library_path.dsv
+[12.310s] -- Installing: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_voxel_grid/share/ament_index/resource_index/package_run_dependencies/nav2_voxel_grid
+[12.310s] -- Installing: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_voxel_grid/share/ament_index/resource_index/parent_prefix_path/nav2_voxel_grid
+[12.310s] -- Installing: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/ament_prefix_path.sh
+[12.310s] -- Installing: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/ament_prefix_path.dsv
+[12.310s] -- Installing: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/path.sh
+[12.310s] -- Installing: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/path.dsv
+[12.310s] -- Installing: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/local_setup.bash
+[12.310s] -- Installing: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/local_setup.sh
+[12.311s] -- Installing: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/local_setup.zsh
+[12.311s] -- Installing: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/local_setup.dsv
+[12.311s] -- Installing: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/package.dsv
+[12.311s] -- Installing: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_voxel_grid/share/ament_index/resource_index/packages/nav2_voxel_grid
+[12.311s] -- Installing: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/ament_cmake_export_dependencies-extras.cmake
+[12.311s] -- Installing: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/ament_cmake_export_include_directories-extras.cmake
+[12.311s] -- Installing: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/ament_cmake_export_libraries-extras.cmake
+[12.311s] -- Installing: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/nav2_voxel_gridConfig.cmake
+[12.311s] -- Installing: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/nav2_voxel_gridConfig-version.cmake
+[12.311s] -- Installing: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/package.xml
+[12.313s] Invoked command in '/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/build/nav2_voxel_grid' returned '0': AMENT_PREFIX_PATH=/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_common:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/octobot_2:/opt/ros/foxy:${CMAKE_PREFIX_PATH} PYTHONPATH=/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/build/nav2_voxel_grid

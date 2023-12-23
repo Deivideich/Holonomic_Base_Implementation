@@ -1,0 +1,181 @@
+[0.218s] Invoking command in '/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/build/smac_planner': AMENT_PREFIX_PATH=/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_core:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_costmap_2d:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_util:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_voxel_grid:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_msgs:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_core:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_costmap_2d:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_util:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_voxel_grid:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_msgs:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_common:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/octobot_2:/opt/ros/foxy:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_costmap_2d/lib:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_util/lib:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_voxel_grid/lib:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/navigation2/smac_planner -DCMAKE_INSTALL_PREFIX=/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/smac_planner
+[0.275s] -- The C compiler identification is GNU 9.4.0
+[0.336s] -- The CXX compiler identification is GNU 9.4.0
+[0.343s] -- Check for working C compiler: /usr/bin/cc
+[0.429s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.430s] -- Detecting C compiler ABI info
+[0.510s] -- Detecting C compiler ABI info - done
+[0.527s] -- Detecting C compile features
+[0.527s] -- Detecting C compile features - done
+[0.531s] -- Check for working CXX compiler: /usr/bin/c++
+[0.624s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.625s] -- Detecting CXX compiler ABI info
+[0.724s] -- Detecting CXX compiler ABI info - done
+[0.740s] -- Detecting CXX compile features
+[0.740s] -- Detecting CXX compile features - done
+[0.745s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.786s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.786s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.101s] -- Found nav2_common: 0.4.7 (/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_common/share/nav2_common/cmake)
+[1.104s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.168s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.176s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.257s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.284s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.369s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.434s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.436s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.436s] -- Looking for pthread.h
+[1.503s] -- Looking for pthread.h - found
+[1.503s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.572s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.572s] -- Looking for pthread_create in pthreads
+[1.625s] -- Looking for pthread_create in pthreads - not found
+[1.625s] -- Looking for pthread_create in pthread
+[1.685s] -- Looking for pthread_create in pthread - found
+[1.686s] -- Found Threads: TRUE  
+[1.819s] -- Found rclcpp_action: 2.4.3 (/opt/ros/foxy/share/rclcpp_action/cmake)
+[1.887s] -- Found rclcpp_lifecycle: 2.4.3 (/opt/ros/foxy/share/rclcpp_lifecycle/cmake)
+[1.915s] -- Found visualization_msgs: 2.0.5 (/opt/ros/foxy/share/visualization_msgs/cmake)
+[2.016s] -- Found nav2_util: 0.4.7 (/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_util/share/nav2_util/cmake)
+[2.565s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[2.569s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[2.693s] -- Found nav2_core: 0.4.7 (/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_core/share/nav2_core/cmake)
+[3.698s] -- Found installed version of Eigen: /usr/lib/cmake/eigen3
+[3.699s] -- Found required Ceres dependency: Eigen version 3.3.7 in /usr/include/eigen3
+[3.702s] -- Found required Ceres dependency: glog
+[3.703s] -- Found installed version of gflags: /usr/lib/x86_64-linux-gnu/cmake/gflags
+[3.704s] -- Detected gflags version: 2.2.2
+[3.704s] -- Found required Ceres dependency: gflags
+[3.705s] -- Found Ceres version: 1.14.0 installed in: /usr with components: [EigenSparse, SparseLinearAlgebraLibrary, LAPACK, SuiteSparse, CXSparse, SchurSpecializations, OpenMP, Multithreading]
+[3.709s] -- Found ompl: /opt/ros/foxy/include/ompl-1.5;/usr/include/eigen3  
+[3.910s] -- Found OpenMP_C: -fopenmp (found version "4.5") 
+[3.982s] -- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+[3.982s] -- Found OpenMP: TRUE (found version "4.5")  
+[8.460s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[8.599s] -- Found ament_cmake_gtest: 0.9.12 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)
+[8.608s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[8.613s] -- Check if compiler accepts -pthread
+[8.792s] -- Check if compiler accepts -pthread - yes
+[24.879s] -- Added test 'copyright' to check source files copyright and LICENSE
+[24.880s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[24.881s] -- Configured cppcheck include dirs: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/navigation2/smac_planner/include
+[24.881s] -- Configured cppcheck exclude dirs and/or files: 
+[24.882s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[24.882s] -- Configured cpplint exclude dirs and/or files: 
+[24.883s] -- Added test 'lint_cmake' to check CMake code style
+[24.884s] -- Added test 'uncrustify' to check C / C++ code style
+[24.884s] -- Configured uncrustify additional arguments: 
+[24.885s] -- Added test 'xmllint' to check XML markup files
+[24.891s] -- Configuring done
+[25.326s] -- Generating done
+[25.329s] -- Build files have been written to: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/build/smac_planner
+[25.344s] Invoked command in '/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/build/smac_planner' returned '0': AMENT_PREFIX_PATH=/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_core:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_costmap_2d:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_util:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_voxel_grid:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_msgs:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_core:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_costmap_2d:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_util:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_voxel_grid:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_msgs:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_common:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/octobot_2:/opt/ros/foxy:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_costmap_2d/lib:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_util/lib:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_voxel_grid/lib:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/navigation2/smac_planner -DCMAKE_INSTALL_PREFIX=/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/smac_planner
+[25.348s] Invoking command in '/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/build/smac_planner': AMENT_PREFIX_PATH=/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_core:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_costmap_2d:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_util:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_voxel_grid:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_msgs:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_core:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_costmap_2d:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_util:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_voxel_grid:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_msgs:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_common:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/octobot_2:/opt/ros/foxy:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_costmap_2d/lib:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_util/lib:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_voxel_grid/lib:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/build/smac_planner -- -j16 -l16
+[25.394s] [35m[1mScanning dependencies of target gtest_main[0m
+[25.394s] [35m[1mScanning dependencies of target gtest[0m
+[25.395s] [35m[1mScanning dependencies of target smac_planner[0m
+[25.395s] [35m[1mScanning dependencies of target smac_planner_2d[0m
+[25.418s] [  5%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[25.418s] [  5%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[25.503s] [  8%] [32mBuilding CXX object CMakeFiles/smac_planner_2d.dir/src/smac_planner_2d.cpp.o[0m
+[25.504s] [ 11%] [32mBuilding CXX object CMakeFiles/smac_planner_2d.dir/src/a_star.cpp.o[0m
+[25.517s] [ 17%] [32mBuilding CXX object CMakeFiles/smac_planner_2d.dir/src/node_se2.cpp.o[0m
+[25.518s] [ 17%] [32mBuilding CXX object CMakeFiles/smac_planner_2d.dir/src/costmap_downsampler.cpp.o[0m
+[25.539s] [ 20%] [32mBuilding CXX object CMakeFiles/smac_planner_2d.dir/src/node_2d.cpp.o[0m
+[25.599s] [ 23%] [32mBuilding CXX object CMakeFiles/smac_planner.dir/src/a_star.cpp.o[0m
+[25.603s] [ 26%] [32mBuilding CXX object CMakeFiles/smac_planner.dir/src/smac_planner.cpp.o[0m
+[25.614s] [ 29%] [32mBuilding CXX object CMakeFiles/smac_planner.dir/src/node_se2.cpp.o[0m
+[25.635s] [ 32%] [32mBuilding CXX object CMakeFiles/smac_planner.dir/src/costmap_downsampler.cpp.o[0m
+[25.655s] [ 35%] [32mBuilding CXX object CMakeFiles/smac_planner.dir/src/node_2d.cpp.o[0m
+[27.143s] [ 38%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[27.214s] [ 38%] Built target gtest_main
+[36.341s] [ 41%] [32m[1mLinking CXX static library libgtest.a[0m
+[36.407s] [ 41%] Built target gtest
+[37.732s] [ 44%] [32m[1mLinking CXX shared library libsmac_planner_2d.so[0m
+[38.687s] [ 47%] [32m[1mLinking CXX shared library libsmac_planner.so[0m
+[39.719s] [ 47%] Built target smac_planner_2d
+[39.780s] [35m[1mScanning dependencies of target test_smac_2d[0m
+[39.789s] [35m[1mScanning dependencies of target test_smoother[0m
+[39.985s] [ 50%] [32mBuilding CXX object test/CMakeFiles/test_smac_2d.dir/test_smac_2d.cpp.o[0m
+[40.065s] [ 52%] [32mBuilding CXX object test/CMakeFiles/test_smoother.dir/test_smoother.cpp.o[0m
+[41.075s] [ 52%] Built target smac_planner
+[41.134s] [35m[1mScanning dependencies of target test_costmap_downsampler[0m
+[41.177s] [35m[1mScanning dependencies of target test_a_star[0m
+[41.183s] [35m[1mScanning dependencies of target test_node2d[0m
+[41.195s] [35m[1mScanning dependencies of target test_nodese2[0m
+[41.208s] [35m[1mScanning dependencies of target test_smac_se2[0m
+[41.223s] [35m[1mScanning dependencies of target test_nodebasic[0m
+[41.258s] [35m[1mScanning dependencies of target test_collision_checker[0m
+[41.363s] [ 55%] [32mBuilding CXX object test/CMakeFiles/test_costmap_downsampler.dir/test_costmap_downsampler.cpp.o[0m
+[41.392s] [ 58%] [32mBuilding CXX object test/CMakeFiles/test_node2d.dir/test_node2d.cpp.o[0m
+[41.407s] [ 61%] [32mBuilding CXX object test/CMakeFiles/test_smac_se2.dir/test_smac_se2.cpp.o[0m
+[41.434s] [ 64%] [32mBuilding CXX object test/CMakeFiles/test_a_star.dir/test_a_star.cpp.o[0m
+[41.445s] [ 67%] [32mBuilding CXX object test/CMakeFiles/test_collision_checker.dir/test_collision_checker.cpp.o[0m
+[41.447s] [ 70%] [32mBuilding CXX object test/CMakeFiles/test_nodese2.dir/test_nodese2.cpp.o[0m
+[41.496s] [ 73%] [32mBuilding CXX object test/CMakeFiles/test_nodebasic.dir/test_nodebasic.cpp.o[0m
+[47.484s] [ 76%] [32m[1mLinking CXX executable test_collision_checker[0m
+[47.943s] [ 76%] Built target test_collision_checker
+[48.304s] [ 79%] [32m[1mLinking CXX executable test_node2d[0m
+[48.574s] [ 82%] [32m[1mLinking CXX executable test_nodebasic[0m
+[48.874s] [ 82%] Built target test_node2d
+[48.951s] [ 82%] Built target test_nodebasic
+[49.368s] [ 85%] [32m[1mLinking CXX executable test_costmap_downsampler[0m
+[49.430s] [ 88%] [32m[1mLinking CXX executable test_nodese2[0m
+[49.786s] [ 91%] [32m[1mLinking CXX executable test_smoother[0m
+[49.859s] [ 91%] Built target test_nodese2
+[49.905s] [ 94%] [32m[1mLinking CXX executable test_a_star[0m
+[50.003s] [ 94%] Built target test_costmap_downsampler
+[50.232s] [ 94%] Built target test_smoother
+[50.289s] [ 94%] Built target test_a_star
+[50.530s] [ 97%] [32m[1mLinking CXX executable test_smac_2d[0m
+[50.858s] [ 97%] Built target test_smac_2d
+[50.914s] [100%] [32m[1mLinking CXX executable test_smac_se2[0m
+[51.231s] [100%] Built target test_smac_se2
+[51.244s] Invoked command in '/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/build/smac_planner' returned '0': AMENT_PREFIX_PATH=/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_core:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_costmap_2d:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_util:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_voxel_grid:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_msgs:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_core:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_costmap_2d:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_util:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_voxel_grid:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_msgs:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_common:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/octobot_2:/opt/ros/foxy:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_costmap_2d/lib:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_util/lib:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_voxel_grid/lib:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/build/smac_planner -- -j16 -l16
+[51.276s] Invoking command in '/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/build/smac_planner': AMENT_PREFIX_PATH=/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_core:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_costmap_2d:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_util:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_voxel_grid:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_msgs:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_core:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_costmap_2d:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_util:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_voxel_grid:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_msgs:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_common:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/octobot_2:/opt/ros/foxy:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_costmap_2d/lib:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_util/lib:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_voxel_grid/lib:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/build/smac_planner
+[51.284s] -- Install configuration: "Release"
+[51.284s] -- Installing: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/smac_planner/share/smac_planner/smac_plugin.xml
+[51.284s] -- Installing: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/smac_planner/share/smac_planner/smac_plugin_2d.xml
+[51.284s] -- Installing: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/smac_planner/lib/libsmac_planner.so
+[51.285s] -- Set runtime path of "/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/smac_planner/lib/libsmac_planner.so" to ""
+[51.285s] -- Installing: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/smac_planner/lib/libsmac_planner_2d.so
+[51.286s] -- Set runtime path of "/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/smac_planner/lib/libsmac_planner_2d.so" to ""
+[51.286s] -- Installing: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/smac_planner/include/
+[51.286s] -- Installing: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/smac_planner/include//smac_planner
+[51.286s] -- Installing: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/smac_planner/include//smac_planner/types.hpp
+[51.286s] -- Installing: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/smac_planner/include//smac_planner/node_basic.hpp
+[51.286s] -- Installing: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/smac_planner/include//smac_planner/a_star.hpp
+[51.286s] -- Installing: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/smac_planner/include//smac_planner/smac_planner.hpp
+[51.286s] -- Installing: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/smac_planner/include//smac_planner/constants.hpp
+[51.286s] -- Installing: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/smac_planner/include//smac_planner/node_2d.hpp
+[51.286s] -- Installing: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/smac_planner/include//smac_planner/smoother_cost_function.hpp
+[51.286s] -- Installing: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/smac_planner/include//smac_planner/collision_checker.hpp
+[51.287s] -- Installing: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/smac_planner/include//smac_planner/smac_planner_2d.hpp
+[51.287s] -- Installing: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/smac_planner/include//smac_planner/options.hpp
+[51.287s] -- Installing: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/smac_planner/include//smac_planner/node_se2.hpp
+[51.287s] -- Installing: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/smac_planner/include//smac_planner/costmap_downsampler.hpp
+[51.287s] -- Installing: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/smac_planner/include//smac_planner/smoother.hpp
+[51.287s] -- Installing: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/smac_planner/share/smac_planner/environment/library_path.sh
+[51.287s] -- Installing: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/smac_planner/share/smac_planner/environment/library_path.dsv
+[51.287s] -- Installing: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/smac_planner/share/ament_index/resource_index/package_run_dependencies/smac_planner
+[51.287s] -- Installing: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/smac_planner/share/ament_index/resource_index/parent_prefix_path/smac_planner
+[51.287s] -- Installing: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/smac_planner/share/smac_planner/environment/ament_prefix_path.sh
+[51.288s] -- Installing: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/smac_planner/share/smac_planner/environment/ament_prefix_path.dsv
+[51.288s] -- Installing: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/smac_planner/share/smac_planner/environment/path.sh
+[51.288s] -- Installing: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/smac_planner/share/smac_planner/environment/path.dsv
+[51.288s] -- Installing: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/smac_planner/share/smac_planner/local_setup.bash
+[51.288s] -- Installing: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/smac_planner/share/smac_planner/local_setup.sh
+[51.288s] -- Installing: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/smac_planner/share/smac_planner/local_setup.zsh
+[51.288s] -- Installing: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/smac_planner/share/smac_planner/local_setup.dsv
+[51.288s] -- Installing: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/smac_planner/share/smac_planner/package.dsv
+[51.288s] -- Installing: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/smac_planner/share/ament_index/resource_index/packages/smac_planner
+[51.288s] -- Installing: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/smac_planner/share/ament_index/resource_index/nav2_core__pluginlib__plugin/smac_planner
+[51.289s] -- Installing: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/smac_planner/share/smac_planner/cmake/ament_cmake_export_include_directories-extras.cmake
+[51.289s] -- Installing: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/smac_planner/share/smac_planner/cmake/ament_cmake_export_libraries-extras.cmake
+[51.289s] -- Installing: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/smac_planner/share/smac_planner/cmake/ament_cmake_export_dependencies-extras.cmake
+[51.289s] -- Installing: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/smac_planner/share/smac_planner/cmake/ament_cmake_export_definitions-extras.cmake
+[51.289s] -- Installing: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/smac_planner/share/smac_planner/cmake/smac_plannerConfig.cmake
+[51.289s] -- Installing: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/smac_planner/share/smac_planner/cmake/smac_plannerConfig-version.cmake
+[51.289s] -- Installing: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/smac_planner/share/smac_planner/package.xml
+[51.291s] Invoked command in '/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/build/smac_planner' returned '0': AMENT_PREFIX_PATH=/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_core:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_costmap_2d:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_util:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_voxel_grid:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_msgs:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_core:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_costmap_2d:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_util:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_voxel_grid:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_msgs:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_common:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/octobot_2:/opt/ros/foxy:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_costmap_2d/lib:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_util/lib:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_voxel_grid/lib:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/build/smac_planner

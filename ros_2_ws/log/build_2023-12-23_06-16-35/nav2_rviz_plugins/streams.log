@@ -1,0 +1,138 @@
+[0.611s] Invoking command in '/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/build/nav2_rviz_plugins': AMENT_PREFIX_PATH=/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_lifecycle_manager:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_util:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_msgs:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_lifecycle_manager:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_util:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_msgs:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_common:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/octobot_2:/opt/ros/foxy:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_lifecycle_manager/lib:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_util/lib:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/navigation2/nav2_rviz_plugins -DCMAKE_INSTALL_PREFIX=/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_rviz_plugins
+[0.885s] -- The C compiler identification is GNU 9.4.0
+[1.046s] -- The CXX compiler identification is GNU 9.4.0
+[1.052s] -- Check for working C compiler: /usr/bin/cc
+[1.425s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.432s] -- Detecting C compiler ABI info
+[1.801s] -- Detecting C compiler ABI info - done
+[1.817s] -- Detecting C compile features
+[1.818s] -- Detecting C compile features - done
+[1.821s] -- Check for working CXX compiler: /usr/bin/c++
+[2.253s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.254s] -- Detecting CXX compiler ABI info
+[2.652s] -- Detecting CXX compiler ABI info - done
+[2.685s] -- Detecting CXX compile features
+[2.685s] -- Detecting CXX compile features - done
+[2.689s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[2.789s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.789s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.282s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[3.362s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.375s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[3.852s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[3.962s] -- Found FastRTPS: /opt/ros/foxy/include  
+[4.222s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.460s] -- Found nav2_util: 0.4.7 (/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_util/share/nav2_util/cmake)
+[5.616s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[5.619s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.620s] -- Looking for pthread.h
+[6.033s] -- Looking for pthread.h - found
+[6.033s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[6.384s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[6.384s] -- Looking for pthread_create in pthreads
+[6.705s] -- Looking for pthread_create in pthreads - not found
+[6.705s] -- Looking for pthread_create in pthread
+[7.057s] -- Looking for pthread_create in pthread - found
+[7.059s] -- Found Threads: TRUE  
+[7.994s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[7.999s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[8.282s] -- Found nav2_lifecycle_manager: 0.4.7 (/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/cmake)
+[8.712s] -- Found pluginlib: 2.5.4 (/opt/ros/foxy/share/pluginlib/cmake)
+[8.797s] -- Found rviz_common: 8.2.8 (/opt/ros/foxy/share/rviz_common/cmake)
+[8.817s] -- Setting OGRE_DIR to: '/opt/ros/foxy/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[8.826s] -- Found OGRE
+[8.826s] --   static     : OFF
+[8.826s] --   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[8.826s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[8.827s] --   media      : /opt/ros/foxy/opt/rviz_ogre_vendor/share/OGRE/Media
+[8.827s] -- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[8.827s] -- OGRE_LIBRARY_DIRS: /opt/ros/foxy/opt/rviz_ogre_vendor/lib
+[8.827s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[8.827s] -- OGRE_PLUGIN_DIR: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/OGRE
+[8.827s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[8.827s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[8.827s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[8.827s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[8.910s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[8.945s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[9.520s] -- Found X11: /usr/include   
+[9.521s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[9.675s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[9.675s] -- Looking for gethostbyname
+[9.809s] -- Looking for gethostbyname - found
+[9.809s] -- Looking for connect
+[9.938s] -- Looking for connect - found
+[9.938s] -- Looking for remove
+[10.077s] -- Looking for remove - found
+[10.077s] -- Looking for shmat
+[10.212s] -- Looking for shmat - found
+[10.213s] -- Looking for IceConnectionNumber in ICE
+[10.359s] -- Looking for IceConnectionNumber in ICE - found
+[10.364s] -- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_RELEASE: _render_system_gl_static_library_abs-NOTFOUND
+[10.364s] -- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_DEBUG: _render_system_gl_static_library_abs-NOTFOUND
+[10.383s] -- library: libassimp.so.5
+[10.522s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[10.685s] -- Setting yaml-cpp_DIR to: '/opt/ros/foxy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/lib/cmake/yaml-cpp'
+[10.690s] -- Found rviz_default_plugins: 8.2.8 (/opt/ros/foxy/share/rviz_default_plugins/cmake)
+[11.666s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[11.751s] -- Added test 'copyright' to check source files copyright and LICENSE
+[11.752s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[11.752s] -- Configured cppcheck include dirs: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/navigation2/nav2_rviz_plugins/include
+[11.752s] -- Configured cppcheck exclude dirs and/or files: 
+[11.753s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[11.753s] -- Configured cpplint exclude dirs and/or files: 
+[11.754s] -- Added test 'lint_cmake' to check CMake code style
+[11.755s] -- Added test 'uncrustify' to check C / C++ code style
+[11.755s] -- Configured uncrustify additional arguments: 
+[11.755s] -- Added test 'xmllint' to check XML markup files
+[11.760s] -- Configuring done
+[11.838s] -- Generating done
+[11.841s] -- Build files have been written to: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/build/nav2_rviz_plugins
+[11.858s] Invoked command in '/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/build/nav2_rviz_plugins' returned '0': AMENT_PREFIX_PATH=/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_lifecycle_manager:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_util:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_msgs:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_lifecycle_manager:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_util:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_msgs:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_common:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/octobot_2:/opt/ros/foxy:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_lifecycle_manager/lib:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_util/lib:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/navigation2/nav2_rviz_plugins -DCMAKE_INSTALL_PREFIX=/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_rviz_plugins
+[11.862s] Invoking command in '/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/build/nav2_rviz_plugins': AMENT_PREFIX_PATH=/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_lifecycle_manager:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_util:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_msgs:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_lifecycle_manager:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_util:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_msgs:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_common:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/octobot_2:/opt/ros/foxy:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_lifecycle_manager/lib:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_util/lib:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/build/nav2_rviz_plugins -- -j16 -l16
+[11.908s] [35m[1mScanning dependencies of target nav2_rviz_plugins_autogen[0m
+[11.921s] [ 20%] [34m[1mAutomatic MOC for target nav2_rviz_plugins[0m
+[12.437s] [ 20%] Built target nav2_rviz_plugins_autogen
+[12.448s] [35m[1mScanning dependencies of target nav2_rviz_plugins[0m
+[12.569s] [ 60%] [32mBuilding CXX object CMakeFiles/nav2_rviz_plugins.dir/nav2_rviz_plugins_autogen/mocs_compilation.cpp.o[0m
+[12.569s] [ 60%] [32mBuilding CXX object CMakeFiles/nav2_rviz_plugins.dir/src/goal_tool.cpp.o[0m
+[12.571s] [ 80%] [32mBuilding CXX object CMakeFiles/nav2_rviz_plugins.dir/src/nav2_panel.cpp.o[0m
+[24.850s] [100%] [32m[1mLinking CXX shared library libnav2_rviz_plugins.so[0m
+[32.812s] [100%] Built target nav2_rviz_plugins
+[32.824s] Invoked command in '/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/build/nav2_rviz_plugins' returned '0': AMENT_PREFIX_PATH=/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_lifecycle_manager:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_util:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_msgs:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_lifecycle_manager:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_util:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_msgs:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_common:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/octobot_2:/opt/ros/foxy:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_lifecycle_manager/lib:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_util/lib:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/build/nav2_rviz_plugins -- -j16 -l16
+[32.853s] Invoking command in '/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/build/nav2_rviz_plugins': AMENT_PREFIX_PATH=/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_lifecycle_manager:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_util:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_msgs:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_lifecycle_manager:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_util:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_msgs:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_common:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/octobot_2:/opt/ros/foxy:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_lifecycle_manager/lib:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_util/lib:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/build/nav2_rviz_plugins
+[32.862s] -- Install configuration: ""
+[32.862s] -- Installing: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_rviz_plugins/share/nav2_rviz_plugins/plugins_description.xml
+[32.862s] -- Installing: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_rviz_plugins/lib/libnav2_rviz_plugins.so
+[32.865s] -- Set runtime path of "/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_rviz_plugins/lib/libnav2_rviz_plugins.so" to ""
+[32.865s] -- Installing: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_rviz_plugins/include/
+[32.866s] -- Installing: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_rviz_plugins/include//nav2_rviz_plugins
+[32.866s] -- Installing: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_rviz_plugins/include//nav2_rviz_plugins/nav2_panel.hpp
+[32.866s] -- Installing: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_rviz_plugins/include//nav2_rviz_plugins/goal_tool.hpp
+[32.866s] -- Installing: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_rviz_plugins/include//nav2_rviz_plugins/goal_pose_updater.hpp
+[32.866s] -- Installing: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_rviz_plugins/include//nav2_rviz_plugins/ros_action_qevent.hpp
+[32.866s] -- Installing: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_rviz_plugins/include//nav2_rviz_plugins/goal_common.hpp
+[32.866s] -- Installing: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_rviz_plugins/share/nav2_rviz_plugins/environment/library_path.sh
+[32.867s] -- Installing: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_rviz_plugins/share/nav2_rviz_plugins/environment/library_path.dsv
+[32.867s] -- Installing: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_rviz_plugins/share/ament_index/resource_index/package_run_dependencies/nav2_rviz_plugins
+[32.867s] -- Installing: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_rviz_plugins/share/ament_index/resource_index/parent_prefix_path/nav2_rviz_plugins
+[32.867s] -- Installing: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_rviz_plugins/share/nav2_rviz_plugins/environment/ament_prefix_path.sh
+[32.867s] -- Installing: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_rviz_plugins/share/nav2_rviz_plugins/environment/ament_prefix_path.dsv
+[32.867s] -- Installing: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_rviz_plugins/share/nav2_rviz_plugins/environment/path.sh
+[32.867s] -- Installing: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_rviz_plugins/share/nav2_rviz_plugins/environment/path.dsv
+[32.868s] -- Installing: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_rviz_plugins/share/nav2_rviz_plugins/local_setup.bash
+[32.868s] -- Installing: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_rviz_plugins/share/nav2_rviz_plugins/local_setup.sh
+[32.868s] -- Installing: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_rviz_plugins/share/nav2_rviz_plugins/local_setup.zsh
+[32.868s] -- Installing: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_rviz_plugins/share/nav2_rviz_plugins/local_setup.dsv
+[32.868s] -- Installing: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_rviz_plugins/share/nav2_rviz_plugins/package.dsv
+[32.868s] -- Installing: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_rviz_plugins/share/ament_index/resource_index/packages/nav2_rviz_plugins
+[32.868s] -- Installing: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_rviz_plugins/share/ament_index/resource_index/rviz_common__pluginlib__plugin/nav2_rviz_plugins
+[32.869s] -- Installing: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_rviz_plugins/share/nav2_rviz_plugins/cmake/nav2_rviz_pluginsExport.cmake
+[32.869s] -- Installing: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_rviz_plugins/share/nav2_rviz_plugins/cmake/nav2_rviz_pluginsExport-noconfig.cmake
+[32.869s] -- Installing: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_rviz_plugins/share/nav2_rviz_plugins/cmake/ament_cmake_export_include_directories-extras.cmake
+[32.869s] -- Installing: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_rviz_plugins/share/nav2_rviz_plugins/cmake/ament_cmake_export_targets-extras.cmake
+[32.869s] -- Installing: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_rviz_plugins/share/nav2_rviz_plugins/cmake/ament_cmake_export_dependencies-extras.cmake
+[32.869s] -- Installing: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_rviz_plugins/share/nav2_rviz_plugins/cmake/nav2_rviz_pluginsConfig.cmake
+[32.869s] -- Installing: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_rviz_plugins/share/nav2_rviz_plugins/cmake/nav2_rviz_pluginsConfig-version.cmake
+[32.869s] -- Installing: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_rviz_plugins/share/nav2_rviz_plugins/package.xml
+[32.871s] Invoked command in '/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/build/nav2_rviz_plugins' returned '0': AMENT_PREFIX_PATH=/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_lifecycle_manager:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_util:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_msgs:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_lifecycle_manager:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_util:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_msgs:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_common:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/octobot_2:/opt/ros/foxy:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_lifecycle_manager/lib:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_util/lib:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/build/nav2_rviz_plugins

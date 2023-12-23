@@ -1,0 +1,107 @@
+[0.182s] Invoking command in '/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/build/nav2_bt_navigator': AMENT_PREFIX_PATH=/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_behavior_tree:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_util:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_msgs:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_behavior_tree:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_util:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_msgs:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_common:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/octobot_2:/opt/ros/foxy:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_behavior_tree/lib:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_util/lib:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/navigation2/nav2_bt_navigator -DCMAKE_INSTALL_PREFIX=/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_bt_navigator
+[0.225s] -- The C compiler identification is GNU 9.4.0
+[0.267s] -- The CXX compiler identification is GNU 9.4.0
+[0.270s] -- Check for working C compiler: /usr/bin/cc
+[0.325s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.326s] -- Detecting C compiler ABI info
+[0.383s] -- Detecting C compiler ABI info - done
+[0.392s] -- Detecting C compile features
+[0.392s] -- Detecting C compile features - done
+[0.394s] -- Check for working CXX compiler: /usr/bin/c++
+[0.456s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.457s] -- Detecting CXX compiler ABI info
+[0.517s] -- Detecting CXX compiler ABI info - done
+[0.525s] -- Detecting CXX compile features
+[0.526s] -- Detecting CXX compile features - done
+[0.528s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.553s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.553s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.736s] -- Found nav2_common: 0.4.7 (/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_common/share/nav2_common/cmake)
+[0.737s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.773s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.779s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.852s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.875s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.936s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.980s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.981s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.982s] -- Looking for pthread.h
+[1.040s] -- Looking for pthread.h - found
+[1.040s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.098s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.098s] -- Looking for pthread_create in pthreads
+[1.145s] -- Looking for pthread_create in pthreads - not found
+[1.145s] -- Looking for pthread_create in pthread
+[1.200s] -- Looking for pthread_create in pthread - found
+[1.200s] -- Found Threads: TRUE  
+[1.311s] -- Found rclcpp_action: 2.4.3 (/opt/ros/foxy/share/rclcpp_action/cmake)
+[1.367s] -- Found rclcpp_lifecycle: 2.4.3 (/opt/ros/foxy/share/rclcpp_lifecycle/cmake)
+[1.390s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[1.414s] -- Found nav2_behavior_tree: 0.4.7 (/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/cmake)
+[1.944s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[1.948s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[2.216s] -- Setting build type to Release as none was specified.
+[3.146s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[3.209s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.210s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.210s] -- Configured cppcheck include dirs: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/navigation2/nav2_bt_navigator/include
+[3.210s] -- Configured cppcheck exclude dirs and/or files: 
+[3.211s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.211s] -- Configured cpplint exclude dirs and/or files: 
+[3.212s] -- Added test 'lint_cmake' to check CMake code style
+[3.213s] -- Added test 'uncrustify' to check C / C++ code style
+[3.213s] -- Configured uncrustify additional arguments: 
+[3.213s] -- Added test 'xmllint' to check XML markup files
+[3.217s] -- Configuring done
+[3.281s] -- Generating done
+[3.282s] -- Build files have been written to: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/build/nav2_bt_navigator
+[3.290s] Invoked command in '/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/build/nav2_bt_navigator' returned '0': AMENT_PREFIX_PATH=/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_behavior_tree:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_util:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_msgs:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_behavior_tree:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_util:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_msgs:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_common:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/octobot_2:/opt/ros/foxy:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_behavior_tree/lib:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_util/lib:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/navigation2/nav2_bt_navigator -DCMAKE_INSTALL_PREFIX=/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_bt_navigator
+[3.293s] Invoking command in '/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/build/nav2_bt_navigator': AMENT_PREFIX_PATH=/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_behavior_tree:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_util:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_msgs:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_behavior_tree:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_util:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_msgs:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_common:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/octobot_2:/opt/ros/foxy:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_behavior_tree/lib:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_util/lib:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/build/nav2_bt_navigator -- -j16 -l16
+[3.329s] [35m[1mScanning dependencies of target bt_navigator_core[0m
+[3.378s] [ 40%] [32mBuilding CXX object CMakeFiles/bt_navigator_core.dir/src/ros_topic_logger.cpp.o[0m
+[3.379s] [ 40%] [32mBuilding CXX object CMakeFiles/bt_navigator_core.dir/src/bt_navigator.cpp.o[0m
+[18.641s] [ 60%] [32m[1mLinking CXX shared library libbt_navigator_core.so[0m
+[18.874s] [ 60%] Built target bt_navigator_core
+[18.883s] [35m[1mScanning dependencies of target bt_navigator[0m
+[18.934s] [ 80%] [32mBuilding CXX object CMakeFiles/bt_navigator.dir/src/main.cpp.o[0m
+[21.487s] [100%] [32m[1mLinking CXX executable bt_navigator[0m
+[21.730s] [100%] Built target bt_navigator
+[21.741s] Invoked command in '/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/build/nav2_bt_navigator' returned '0': AMENT_PREFIX_PATH=/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_behavior_tree:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_util:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_msgs:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_behavior_tree:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_util:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_msgs:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_common:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/octobot_2:/opt/ros/foxy:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_behavior_tree/lib:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_util/lib:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/build/nav2_bt_navigator -- -j16 -l16
+[21.766s] Invoking command in '/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/build/nav2_bt_navigator': AMENT_PREFIX_PATH=/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_behavior_tree:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_util:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_msgs:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_behavior_tree:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_util:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_msgs:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_common:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/octobot_2:/opt/ros/foxy:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_behavior_tree/lib:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_util/lib:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/build/nav2_bt_navigator
+[21.775s] -- Install configuration: "Release"
+[21.775s] -- Installing: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_bt_navigator/lib/libbt_navigator_core.so
+[21.777s] -- Set runtime path of "/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_bt_navigator/lib/libbt_navigator_core.so" to ""
+[21.777s] -- Installing: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_bt_navigator/lib/nav2_bt_navigator/bt_navigator
+[21.777s] -- Set runtime path of "/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_bt_navigator/lib/nav2_bt_navigator/bt_navigator" to ""
+[21.777s] -- Installing: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_bt_navigator/include/
+[21.777s] -- Installing: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_bt_navigator/include//nav2_bt_navigator
+[21.777s] -- Installing: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_bt_navigator/include//nav2_bt_navigator/bt_navigator.hpp
+[21.777s] -- Installing: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_bt_navigator/include//nav2_bt_navigator/ros_topic_logger.hpp
+[21.777s] -- Installing: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/behavior_trees
+[21.777s] -- Installing: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/behavior_trees/navigate_w_replanning_distance.xml
+[21.778s] -- Installing: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/behavior_trees/follow_point.xml
+[21.778s] -- Installing: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/behavior_trees/navigate_w_replanning_and_recovery.xml
+[21.778s] -- Installing: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/behavior_trees/navigate_w_replanning_speed.xml
+[21.778s] -- Installing: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/behavior_trees/navigate_w_replanning_time.xml
+[21.778s] -- Installing: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/behavior_trees/navigate_w_replanning_and_round_robin_recovery.xml
+[21.778s] -- Installing: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/environment/library_path.sh
+[21.778s] -- Installing: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/environment/library_path.dsv
+[21.778s] -- Installing: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_bt_navigator/share/ament_index/resource_index/package_run_dependencies/nav2_bt_navigator
+[21.778s] -- Installing: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_bt_navigator/share/ament_index/resource_index/parent_prefix_path/nav2_bt_navigator
+[21.778s] -- Installing: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/environment/ament_prefix_path.sh
+[21.778s] -- Installing: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/environment/ament_prefix_path.dsv
+[21.778s] -- Installing: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/environment/path.sh
+[21.778s] -- Installing: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/environment/path.dsv
+[21.779s] -- Installing: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/local_setup.bash
+[21.779s] -- Installing: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/local_setup.sh
+[21.779s] -- Installing: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/local_setup.zsh
+[21.779s] -- Installing: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/local_setup.dsv
+[21.779s] -- Installing: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/package.dsv
+[21.779s] -- Installing: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_bt_navigator/share/ament_index/resource_index/packages/nav2_bt_navigator
+[21.779s] -- Installing: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/cmake/ament_cmake_export_include_directories-extras.cmake
+[21.779s] -- Installing: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/cmake/ament_cmake_export_libraries-extras.cmake
+[21.779s] -- Installing: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/cmake/ament_cmake_export_dependencies-extras.cmake
+[21.779s] -- Installing: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/cmake/nav2_bt_navigatorConfig.cmake
+[21.779s] -- Installing: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/cmake/nav2_bt_navigatorConfig-version.cmake
+[21.780s] -- Installing: /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/package.xml
+[21.782s] Invoked command in '/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/build/nav2_bt_navigator' returned '0': AMENT_PREFIX_PATH=/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_behavior_tree:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_util:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_msgs:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_behavior_tree:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_util:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_msgs:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_common:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/octobot_2:/opt/ros/foxy:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_behavior_tree/lib:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_util/lib:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/build/nav2_bt_navigator
