@@ -336,7 +336,7 @@
                     </horizontal>
                 </scan>
                 <range>
-                    <min>0.35</min>
+                    <min>0.3</min>
                     <max>12</max>
                 </range>
             </ray>
@@ -345,7 +345,7 @@
                     <argument>~/out:=scan</argument>
                 </ros>
                 <output_type>sensor_msgs/LaserScan</output_type>
-                <frame_name>Lidar_Link</frame_name>
+                <frame_name>base_link</frame_name>
             </plugin>
         </sensor>
     </gazebo>
@@ -428,6 +428,21 @@
         </sensor>
     </gazebo>
 
+    <link name="imu_link"/>
+    <joint
+      name="imu_joint"
+      type="fixed">
+      <origin
+        xyz="0.0 0 0.0"
+        rpy="0 0 0" />
+      <parent
+        link="base_link" />
+      <child
+        link="imu_link" />
+      <axis
+        xyz="1 0 0" />
+    </joint>
+
     <gazebo reference="imu_link">
       <gravity>true</gravity>
       <sensor name="imu_sensor" type="imu">
@@ -442,7 +457,7 @@
           <gaussianNoise>0.005</gaussianNoise>
           <xyzOffset>0 0 0</xyzOffset>
           <rpyOffset>0 0 0</rpyOffset>
-          <frameName>base_link</frameName>
+          <frameName>imu_link</frameName>
           <initialOrientationAsReference>true</initialOrientationAsReference>
         </plugin>
         <pose>0 0 0 0 0 0</pose>

@@ -12,6 +12,7 @@
 /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_bringup/share/nav2_bringup/rviz/nav2_namespaced_view.rviz
 /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_bringup/share/nav2_bringup/worlds/waffle.model
 /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_bringup/share/nav2_bringup/worlds/world_only.model
+/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_bringup/share/nav2_bringup/params/nav2_params_custom.yaml
 /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_bringup/share/nav2_bringup/params/nav2_params.yaml
 /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_bringup/share/nav2_bringup/params/nav2_multirobot_params_2.yaml
 /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_bringup/share/nav2_bringup/params/nav2_multirobot_params_1.yaml
