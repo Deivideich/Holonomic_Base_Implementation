@@ -24,6 +24,8 @@ function _colcon_prefix_chain_powershell_source_script {
 # source chained prefixes
 _colcon_prefix_chain_powershell_source_script "/opt/ros/noetic\local_setup.ps1"
 _colcon_prefix_chain_powershell_source_script "/opt/ros/foxy\local_setup.ps1"
+_colcon_prefix_chain_powershell_source_script "/home/deivideich/axebot_example/src/install\local_setup.ps1"
+_colcon_prefix_chain_powershell_source_script "/home/deivideich/axebot_example/install\local_setup.ps1"
 _colcon_prefix_chain_powershell_source_script "/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install\local_setup.ps1"
 
 # source this prefix

@@ -1,0 +1,21 @@
+[2.485s] Invoking command in '/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/navigation2/nav2_bringup/nav2_gazebo_spawner': PYTHONPATH=/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/build/nav2_gazebo_spawner/prefix_override:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_gazebo_spawner/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/nav2_gazebo_spawner build --build-base /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/build/nav2_gazebo_spawner/build install --record /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/build/nav2_gazebo_spawner/install.log --install-scripts $base/lib/nav2_gazebo_spawner --single-version-externally-managed
+[3.200s] running egg_info
+[3.200s] writing ../../../build/nav2_gazebo_spawner/nav2_gazebo_spawner.egg-info/PKG-INFO
+[3.201s] writing dependency_links to ../../../build/nav2_gazebo_spawner/nav2_gazebo_spawner.egg-info/dependency_links.txt
+[3.201s] writing entry points to ../../../build/nav2_gazebo_spawner/nav2_gazebo_spawner.egg-info/entry_points.txt
+[3.201s] writing requirements to ../../../build/nav2_gazebo_spawner/nav2_gazebo_spawner.egg-info/requires.txt
+[3.201s] writing top-level names to ../../../build/nav2_gazebo_spawner/nav2_gazebo_spawner.egg-info/top_level.txt
+[3.201s] reading manifest file '../../../build/nav2_gazebo_spawner/nav2_gazebo_spawner.egg-info/SOURCES.txt'
+[3.202s] writing manifest file '../../../build/nav2_gazebo_spawner/nav2_gazebo_spawner.egg-info/SOURCES.txt'
+[3.202s] running build
+[3.202s] running build_py
+[3.202s] running install
+[3.202s] running install_lib
+[3.202s] running install_data
+[3.202s] running install_egg_info
+[3.202s] removing '/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_gazebo_spawner/lib/python3.8/site-packages/nav2_gazebo_spawner-0.3.0-py3.8.egg-info' (and everything under it)
+[3.203s] Copying ../../../build/nav2_gazebo_spawner/nav2_gazebo_spawner.egg-info to /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_gazebo_spawner/lib/python3.8/site-packages/nav2_gazebo_spawner-0.3.0-py3.8.egg-info
+[3.203s] running install_scripts
+[3.203s] Installing nav2_gazebo_spawner script to /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_gazebo_spawner/lib/nav2_gazebo_spawner
+[3.203s] writing list of installed files to '/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/build/nav2_gazebo_spawner/install.log'
+[3.965s] Invoked command in '/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/navigation2/nav2_bringup/nav2_gazebo_spawner' returned '0': PYTHONPATH=/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/build/nav2_gazebo_spawner/prefix_override:/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/nav2_gazebo_spawner/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/nav2_gazebo_spawner build --build-base /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/build/nav2_gazebo_spawner/build install --record /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/build/nav2_gazebo_spawner/install.log --install-scripts $base/lib/nav2_gazebo_spawner --single-version-externally-managed
