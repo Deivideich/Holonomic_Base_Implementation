@@ -44,9 +44,6 @@
       </geometry>
     </collision>
   </link>
-  <gazebo reference="base_link">
-   <turnGravityOff>true</turnGravityOff>
-</gazebo>
     <joint name="Base_footprint_joint" type="fixed">
         <parent link="base_link"/>
         <child link="base_footprint"/>
@@ -54,6 +51,7 @@
     </joint>
     <link name="base_footprint">
     </link>
+    
   <link
     name="fl_link">
     <inertial>
@@ -350,7 +348,7 @@
     </sensor>
 </gazebo>
 
-  <link
+  <!-- <link
     name="cam_link">
     <inertial>
       <origin
@@ -427,8 +425,25 @@
             <frame_name>base_link</frame_name>
         </plugin>
     </sensor>
+</gazebo> -->
+<gazebo reference="base_link">
+  <turnGravityOff>true</turnGravityOff>
 </gazebo>
-
+<gazebo reference="fl_link">
+  <turnGravityOff>true</turnGravityOff>
+</gazebo>
+<gazebo reference="fr_link">
+  <turnGravityOff>true</turnGravityOff>
+</gazebo>
+<gazebo reference="br_link">
+  <turnGravityOff>true</turnGravityOff>
+</gazebo>
+<gazebo reference="bl_link">
+  <turnGravityOff>true</turnGravityOff>
+</gazebo>
+<gazebo reference="lidar_link">
+  <turnGravityOff>true</turnGravityOff>
+</gazebo>
 <gazebo>
   <plugin name="diff_drive" filename="libgazebo_ros_planar_move.so">
       <!-- Output -->
