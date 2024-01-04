@@ -5,11 +5,14 @@
 /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/octobot_2/share/octobot_2/urdf/NuevaBaseMetal3.urdf
 /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/octobot_2/share/octobot_2/urdf/NuevaBaseMetal4.urdf
 /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/octobot_2/share/octobot_2/urdf/NuevaBaseMetal2.urdf
+/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/octobot_2/share/octobot_2/launch/rplidar.launch.py
 /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/octobot_2/share/octobot_2/launch/gazebo_test.launch.py
 /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/octobot_2/share/octobot_2/launch/gazebo.launch.py
 /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/octobot_2/share/octobot_2/launch/gazebo_2.launch.py
 /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/octobot_2/share/octobot_2/launch/rsp.launch.py
+/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/octobot_2/share/octobot_2/launch/navigation_custom_launch.py
 /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/octobot_2/share/octobot_2/launch/display.launch copy.py
+/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/octobot_2/share/octobot_2/launch/BaseDriver.py
 /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/octobot_2/share/octobot_2/meshes/cam_link.STL
 /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/octobot_2/share/octobot_2/meshes/base_link.STL
 /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/octobot_2/share/octobot_2/meshes/BL_Link.STL
@@ -25,6 +28,7 @@
 /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/octobot_2/share/octobot_2/meshes/Base_link.STL
 /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/octobot_2/share/octobot_2/meshes/bl_link.STL
 /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/octobot_2/share/octobot_2/worlds
+/home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/octobot_2/share/octobot_2/params/nav2_params_custom.yaml
 /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/octobot_2/lib/python3.8/site-packages/octobot_2-0.0.0-py3.8.egg-info/requires.txt
 /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/octobot_2/lib/python3.8/site-packages/octobot_2-0.0.0-py3.8.egg-info/PKG-INFO
 /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/octobot_2/lib/python3.8/site-packages/octobot_2-0.0.0-py3.8.egg-info/zip-safe

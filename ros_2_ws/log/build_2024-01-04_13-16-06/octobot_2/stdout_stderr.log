@@ -1,0 +1,26 @@
+running egg_info
+creating ../../build/octobot_2/octobot_2.egg-info
+writing ../../build/octobot_2/octobot_2.egg-info/PKG-INFO
+writing dependency_links to ../../build/octobot_2/octobot_2.egg-info/dependency_links.txt
+writing entry points to ../../build/octobot_2/octobot_2.egg-info/entry_points.txt
+writing requirements to ../../build/octobot_2/octobot_2.egg-info/requires.txt
+writing top-level names to ../../build/octobot_2/octobot_2.egg-info/top_level.txt
+writing manifest file '../../build/octobot_2/octobot_2.egg-info/SOURCES.txt'
+reading manifest file '../../build/octobot_2/octobot_2.egg-info/SOURCES.txt'
+writing manifest file '../../build/octobot_2/octobot_2.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/build/octobot_2/build
+creating /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/build/octobot_2/build/lib
+creating /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/build/octobot_2/build/lib/octobot_2
+copying octobot_2/__init__.py -> /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/build/octobot_2/build/lib/octobot_2
+running install
+running install_lib
+creating /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/octobot_2/lib/python3.8/site-packages/octobot_2
+copying /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/build/octobot_2/build/lib/octobot_2/__init__.py -> /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/octobot_2/lib/python3.8/site-packages/octobot_2
+byte-compiling /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/octobot_2/lib/python3.8/site-packages/octobot_2/__init__.py to __init__.cpython-38.pyc
+running install_data
+creating /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/octobot_2/share/ament_index
+creating /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/octobot_2/share/ament_index/resource_index
+creating /home/deivideich/Holonomic_Base_Simulation/ros_2_ws/install/octobot_2/share/ament_index/resource_index/packages
+error: can't copy 'resource/octobot_2': doesn't exist or not a regular file
