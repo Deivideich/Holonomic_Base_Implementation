@@ -54,13 +54,15 @@ CMAKE_BINARY_DIR = /home/deivideich/ros_1_ws/build
 
 # The main recursive "all" target.
 all: gtest/all
-all: nuevaBaseMetal2/all
+all: NuevaBaseMetal2/all
+all: NuevaBaseMetal3/all
 
 .PHONY : all
 
 # The main recursive "preinstall" target.
 preinstall: gtest/preinstall
-preinstall: nuevaBaseMetal2/preinstall
+preinstall: NuevaBaseMetal2/preinstall
+preinstall: NuevaBaseMetal3/preinstall
 
 .PHONY : preinstall
 
@@ -71,9 +73,46 @@ clean: CMakeFiles/clean_test_results.dir/clean
 clean: CMakeFiles/tests.dir/clean
 clean: CMakeFiles/download_extra_data.dir/clean
 clean: gtest/clean
-clean: nuevaBaseMetal2/clean
+clean: NuevaBaseMetal2/clean
+clean: NuevaBaseMetal3/clean
 
 .PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory NuevaBaseMetal2
+
+# Recursive "all" directory target.
+NuevaBaseMetal2/all:
+
+.PHONY : NuevaBaseMetal2/all
+
+# Recursive "preinstall" directory target.
+NuevaBaseMetal2/preinstall:
+
+.PHONY : NuevaBaseMetal2/preinstall
+
+# Recursive "clean" directory target.
+NuevaBaseMetal2/clean: NuevaBaseMetal2/CMakeFiles/_catkin_empty_exported_target.dir/clean
+
+.PHONY : NuevaBaseMetal2/clean
+
+#=============================================================================
+# Directory level rules for directory NuevaBaseMetal3
+
+# Recursive "all" directory target.
+NuevaBaseMetal3/all:
+
+.PHONY : NuevaBaseMetal3/all
+
+# Recursive "preinstall" directory target.
+NuevaBaseMetal3/preinstall:
+
+.PHONY : NuevaBaseMetal3/preinstall
+
+# Recursive "clean" directory target.
+NuevaBaseMetal3/clean:
+
+.PHONY : NuevaBaseMetal3/clean
 
 #=============================================================================
 # Directory level rules for directory gtest
@@ -131,24 +170,6 @@ gtest/googletest/clean: gtest/googletest/CMakeFiles/gtest_main.dir/clean
 gtest/googletest/clean: gtest/googletest/CMakeFiles/gtest.dir/clean
 
 .PHONY : gtest/googletest/clean
-
-#=============================================================================
-# Directory level rules for directory nuevaBaseMetal2
-
-# Recursive "all" directory target.
-nuevaBaseMetal2/all:
-
-.PHONY : nuevaBaseMetal2/all
-
-# Recursive "preinstall" directory target.
-nuevaBaseMetal2/preinstall:
-
-.PHONY : nuevaBaseMetal2/preinstall
-
-# Recursive "clean" directory target.
-nuevaBaseMetal2/clean: nuevaBaseMetal2/CMakeFiles/_catkin_empty_exported_target.dir/clean
-
-.PHONY : nuevaBaseMetal2/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/doxygen.dir
@@ -395,31 +416,31 @@ gtest/googletest/CMakeFiles/gtest.dir/clean:
 .PHONY : gtest/googletest/CMakeFiles/gtest.dir/clean
 
 #=============================================================================
-# Target rules for target nuevaBaseMetal2/CMakeFiles/_catkin_empty_exported_target.dir
+# Target rules for target NuevaBaseMetal2/CMakeFiles/_catkin_empty_exported_target.dir
 
 # All Build rule for target.
-nuevaBaseMetal2/CMakeFiles/_catkin_empty_exported_target.dir/all:
-	$(MAKE) -f nuevaBaseMetal2/CMakeFiles/_catkin_empty_exported_target.dir/build.make nuevaBaseMetal2/CMakeFiles/_catkin_empty_exported_target.dir/depend
-	$(MAKE) -f nuevaBaseMetal2/CMakeFiles/_catkin_empty_exported_target.dir/build.make nuevaBaseMetal2/CMakeFiles/_catkin_empty_exported_target.dir/build
+NuevaBaseMetal2/CMakeFiles/_catkin_empty_exported_target.dir/all:
+	$(MAKE) -f NuevaBaseMetal2/CMakeFiles/_catkin_empty_exported_target.dir/build.make NuevaBaseMetal2/CMakeFiles/_catkin_empty_exported_target.dir/depend
+	$(MAKE) -f NuevaBaseMetal2/CMakeFiles/_catkin_empty_exported_target.dir/build.make NuevaBaseMetal2/CMakeFiles/_catkin_empty_exported_target.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/deivideich/ros_1_ws/build/CMakeFiles --progress-num= "Built target _catkin_empty_exported_target"
-.PHONY : nuevaBaseMetal2/CMakeFiles/_catkin_empty_exported_target.dir/all
+.PHONY : NuevaBaseMetal2/CMakeFiles/_catkin_empty_exported_target.dir/all
 
 # Build rule for subdir invocation for target.
-nuevaBaseMetal2/CMakeFiles/_catkin_empty_exported_target.dir/rule: cmake_check_build_system
+NuevaBaseMetal2/CMakeFiles/_catkin_empty_exported_target.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/deivideich/ros_1_ws/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 nuevaBaseMetal2/CMakeFiles/_catkin_empty_exported_target.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 NuevaBaseMetal2/CMakeFiles/_catkin_empty_exported_target.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/deivideich/ros_1_ws/build/CMakeFiles 0
-.PHONY : nuevaBaseMetal2/CMakeFiles/_catkin_empty_exported_target.dir/rule
+.PHONY : NuevaBaseMetal2/CMakeFiles/_catkin_empty_exported_target.dir/rule
 
 # Convenience name for target.
-_catkin_empty_exported_target: nuevaBaseMetal2/CMakeFiles/_catkin_empty_exported_target.dir/rule
+_catkin_empty_exported_target: NuevaBaseMetal2/CMakeFiles/_catkin_empty_exported_target.dir/rule
 
 .PHONY : _catkin_empty_exported_target
 
 # clean rule for target.
-nuevaBaseMetal2/CMakeFiles/_catkin_empty_exported_target.dir/clean:
-	$(MAKE) -f nuevaBaseMetal2/CMakeFiles/_catkin_empty_exported_target.dir/build.make nuevaBaseMetal2/CMakeFiles/_catkin_empty_exported_target.dir/clean
-.PHONY : nuevaBaseMetal2/CMakeFiles/_catkin_empty_exported_target.dir/clean
+NuevaBaseMetal2/CMakeFiles/_catkin_empty_exported_target.dir/clean:
+	$(MAKE) -f NuevaBaseMetal2/CMakeFiles/_catkin_empty_exported_target.dir/build.make NuevaBaseMetal2/CMakeFiles/_catkin_empty_exported_target.dir/clean
+.PHONY : NuevaBaseMetal2/CMakeFiles/_catkin_empty_exported_target.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

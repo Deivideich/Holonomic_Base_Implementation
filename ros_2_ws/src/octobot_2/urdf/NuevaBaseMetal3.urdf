@@ -445,7 +445,7 @@
   <turnGravityOff>true</turnGravityOff>
 </gazebo>
 <gazebo>
-  <plugin name="diff_drive" filename="libgazebo_ros_planar_move.so">
+  <plugin name="omni_drive" filename="libgazebo_ros_planar_move.so">
       <!-- Output -->
       <odometry_frame>odom</odometry_frame>
       <robot_base_frame>base_link </robot_base_frame>

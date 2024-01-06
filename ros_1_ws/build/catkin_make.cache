@@ -1,2 +1,2 @@
-nuevaBaseMetal2
--DCATKIN_DEVEL_PREFIX=/home/deivideich/Holonomic_Base_Simulation/ros_1_ws/devel -DCMAKE_INSTALL_PREFIX=/home/deivideich/Holonomic_Base_Simulation/ros_1_ws/install -G Unix Makefiles
+NuevaBaseMetal2:NuevaBaseMetal3
+-DCATKIN_DEVEL_PREFIX=/home/deivideich/ros_1_ws/devel -DCMAKE_INSTALL_PREFIX=/home/deivideich/ros_1_ws/install -G Unix Makefiles

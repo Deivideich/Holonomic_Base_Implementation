@@ -10,13 +10,16 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.16.3/CMakeCCompiler.cmake"
   "CMakeFiles/3.16.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.16.3/CMakeSystem.cmake"
+  "NuevaBaseMetal2/catkin_generated/package.cmake"
+  "NuevaBaseMetal3/catkin_generated/package.cmake"
   "catkin/catkin_generated/version/package.cmake"
   "catkin_generated/installspace/_setup_util.py"
   "catkin_generated/order_packages.cmake"
-  "nuevaBaseMetal2/catkin_generated/package.cmake"
   "/home/deivideich/ros_1_ws/src/CMakeLists.txt"
-  "/home/deivideich/ros_1_ws/src/nuevaBaseMetal2/CMakeLists.txt"
-  "/home/deivideich/ros_1_ws/src/nuevaBaseMetal2/package.xml"
+  "/home/deivideich/ros_1_ws/src/NuevaBaseMetal2/CMakeLists.txt"
+  "/home/deivideich/ros_1_ws/src/NuevaBaseMetal2/package.xml"
+  "/home/deivideich/ros_1_ws/src/NuevaBaseMetal3/CMakeLists.txt"
+  "/home/deivideich/ros_1_ws/src/NuevaBaseMetal3/package.xml"
   "/opt/ros/noetic/share/catkin/cmake/all.cmake"
   "/opt/ros/noetic/share/catkin/cmake/assert.cmake"
   "/opt/ros/noetic/share/catkin/cmake/atomic_configure_file.cmake"
@@ -154,7 +157,8 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "gtest/CMakeFiles/CMakeDirectoryInformation.cmake"
   "gtest/googlemock/CMakeFiles/CMakeDirectoryInformation.cmake"
   "gtest/googletest/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "nuevaBaseMetal2/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "NuevaBaseMetal2/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "NuevaBaseMetal3/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -168,5 +172,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "gtest/googlemock/CMakeFiles/gmock.dir/DependInfo.cmake"
   "gtest/googletest/CMakeFiles/gtest_main.dir/DependInfo.cmake"
   "gtest/googletest/CMakeFiles/gtest.dir/DependInfo.cmake"
-  "nuevaBaseMetal2/CMakeFiles/_catkin_empty_exported_target.dir/DependInfo.cmake"
+  "NuevaBaseMetal2/CMakeFiles/_catkin_empty_exported_target.dir/DependInfo.cmake"
   )

@@ -1,0 +1,8 @@
+prefix=/home/deivideich/ros_1_ws/devel
+
+Name: NuevaBaseMetal3
+Description: Description of NuevaBaseMetal3
+Version: 1.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

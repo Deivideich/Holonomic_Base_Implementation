@@ -131,7 +131,8 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/deivideich/ros_1_ws/build/gtest/cmake_install.cmake")
-  include("/home/deivideich/ros_1_ws/build/nuevaBaseMetal2/cmake_install.cmake")
+  include("/home/deivideich/ros_1_ws/build/NuevaBaseMetal2/cmake_install.cmake")
+  include("/home/deivideich/ros_1_ws/build/NuevaBaseMetal3/cmake_install.cmake")
 
 endif()
 
