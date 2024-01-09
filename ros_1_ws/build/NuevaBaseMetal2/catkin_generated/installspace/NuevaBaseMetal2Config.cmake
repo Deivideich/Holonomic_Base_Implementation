@@ -67,14 +67,14 @@ set(NuevaBaseMetal2_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(NuevaBaseMetal2_SOURCE_PREFIX /home/deivideich/ros_1_ws/src/NuevaBaseMetal2)
-  set(NuevaBaseMetal2_DEVEL_PREFIX /home/deivideich/ros_1_ws/devel)
+  set(NuevaBaseMetal2_SOURCE_PREFIX /home/deivideich/Holonomic_Base_Simulation/ros_1_ws/src/NuevaBaseMetal2)
+  set(NuevaBaseMetal2_DEVEL_PREFIX /home/deivideich/Holonomic_Base_Simulation/ros_1_ws/devel)
   set(NuevaBaseMetal2_INSTALL_PREFIX "")
   set(NuevaBaseMetal2_PREFIX ${NuevaBaseMetal2_DEVEL_PREFIX})
 else()
   set(NuevaBaseMetal2_SOURCE_PREFIX "")
   set(NuevaBaseMetal2_DEVEL_PREFIX "")
-  set(NuevaBaseMetal2_INSTALL_PREFIX /home/deivideich/ros_1_ws/install)
+  set(NuevaBaseMetal2_INSTALL_PREFIX /home/deivideich/Holonomic_Base_Simulation/ros_1_ws/install)
   set(NuevaBaseMetal2_PREFIX ${NuevaBaseMetal2_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/deivideich/ros_1_ws/install/lib;/home/deivideich/ros_1_ws/devel/lib;/home/deivideich/Holonomic_Base_Simulation/ros_1_ws/devel/lib;/home/deivideich/Desktop/robocup-home/catkin_home/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /home/deivideich/Holonomic_Base_Simulation/ros_1_ws/install/lib;/home/deivideich/ros_1_ws/devel/lib;/home/deivideich/Holonomic_Base_Simulation/ros_1_ws/devel/lib;/home/deivideich/Desktop/robocup-home/catkin_home/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

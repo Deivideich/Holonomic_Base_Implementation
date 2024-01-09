@@ -1,4 +1,4 @@
-prefix=/home/deivideich/ros_1_ws/devel
+prefix=/home/deivideich/Holonomic_Base_Simulation/ros_1_ws/devel
 
 Name: NuevaBaseMetal2
 Description: Description of NuevaBaseMetal2

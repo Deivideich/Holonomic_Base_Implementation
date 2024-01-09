@@ -7,4 +7,4 @@
 # new environment variables
 
 # modified environment variables
-export PWD='/home/deivideich/ros_1_ws/build'
+export PWD='/home/deivideich/Holonomic_Base_Simulation/ros_1_ws/build'

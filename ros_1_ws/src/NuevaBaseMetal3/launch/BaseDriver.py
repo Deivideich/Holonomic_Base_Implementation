@@ -370,8 +370,8 @@ class BaseController:
         self.emergencybt_pub = rospy.Publisher('emergencybt_status', Int16, queue_size=5)
 
         # Subscriptions
-        rospy.Subscriber("smoother_cmd_vel", Twist, self.cmdVelCallback)
-        self.robot_cmd_vel_pub = rospy.Publisher('robot_cmd_vel', Twist, queue_size=5)
+        rospy.Subscriber("cmd_vel", Twist, self.cmdVelCallback)
+        self.cmd_vel_pub = rospy.Publisher('cmd_vel', Twist, queue_size=5)
         
         # Clear any old odometry info
         self.Microcontroller.reset_encoders()
@@ -591,24 +591,24 @@ class BaseController:
         # Handle velocity-based movement requests
         self.last_cmd_vel = rospy.Time.now()
         
-        robot_cmd_vel = Twist()
+        cmd_vel = Twist()
         x = req.linear.x         # m/s
         y = req.linear.y         # m/s
         th = req.angular.z       # rad/s
 
         if self.emergencybt_val == 1:
-            robot_cmd_vel.linear.x = 0
-            robot_cmd_vel.linear.y = 0
-            robot_cmd_vel.angular.z = 0
+            cmd_vel.linear.x = 0
+            cmd_vel.linear.y = 0
+            cmd_vel.angular.z = 0
         else:
-            robot_cmd_vel.linear.x = x
-            robot_cmd_vel.linear.y = y
-            robot_cmd_vel.angular.z = th
-        self.robot_cmd_vel_pub.publish(robot_cmd_vel)
+            cmd_vel.linear.x = x
+            cmd_vel.linear.y = y
+            cmd_vel.angular.z = th
+        self.cmd_vel_pub.publish(cmd_vel)
 
-        self.v_x =  robot_cmd_vel.linear.x
-        self.v_y =  robot_cmd_vel.linear.y
-        self.v_th = robot_cmd_vel.angular.z
+        self.v_x =  cmd_vel.linear.x
+        self.v_y =  cmd_vel.linear.y
+        self.v_th = cmd_vel.angular.z
 
 class MicroControllerROS():
     def __init__(self):
