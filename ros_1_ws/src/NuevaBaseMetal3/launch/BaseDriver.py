@@ -371,7 +371,7 @@ class BaseController:
 
         # Subscriptions
         rospy.Subscriber("cmd_vel", Twist, self.cmdVelCallback)
-        self.cmd_vel_pub = rospy.Publisher('cmd_vel', Twist, queue_size=5)
+        self.robot_cmd_vel_pub = rospy.Publisher('cmd_vel', Twist, queue_size=5)
         
         # Clear any old odometry info
         self.Microcontroller.reset_encoders()
@@ -382,8 +382,8 @@ class BaseController:
         self.imuPub = rospy.Publisher('imu', Imu, queue_size=5)
         self.imuAnglePub = rospy.Publisher('imu_angle', Float32, queue_size=5)
         # Set up the odometry broadcaster
-        self.odomPub = rospy.Publisher('odom', Odometry, queue_size=5)
-        self.odomBroadcaster = TransformBroadcaster()
+        # self.odomPub = rospy.Publisher('odom', Odometry, queue_size=5)
+        # self.odomBroadcaster = TransformBroadcaster()
         
         rospy.loginfo("Started base controller for a base of " + str(self.wheel_track) + "m wide with " + str(self.encoder_resolution) + " ticks per rev")
         rospy.loginfo("Publishing odometry data at: " + str(self.rate) + " Hz using " + str(self.base_frame) + " as base frame")
@@ -546,36 +546,36 @@ class BaseController:
             quaternion.w = cos(self.th / 2.0)
     
             # Create the odometry transform frame broadcaster.
-            if (self.useImu == False) :
-                self.odomBroadcaster.sendTransform(
-                  (self.x, self.y, 0), 
-                  (quaternion.x, quaternion.y, quaternion.z, quaternion.w),
-                  rospy.Time.now(),
-                  self.base_frame,
-                  "odom"
-                )
+            # if (self.useImu == False) :
+            #     self.odomBroadcaster.sendTransform(
+            #       (self.x, self.y, 0), 
+            #       (quaternion.x, quaternion.y, quaternion.z, quaternion.w),
+            #       rospy.Time.now(),
+            #       self.base_frame,
+            #       "odom"
+            #     )
     
-            odom = Odometry()
-            odom.header.frame_id = "odom"
-            odom.child_frame_id = self.base_frame
-            odom.header.stamp = now
-            odom.pose.pose.position.x = self.x
-            odom.pose.pose.position.y = self.y
-            odom.pose.pose.position.z = 0
-            odom.pose.pose.orientation = quaternion
-            odom.twist.twist.linear.x = vxy
-            odom.twist.twist.linear.y = 0
-            odom.twist.twist.angular.z = vth
+            # odom = Odometry()
+            # odom.header.frame_id = "odom"
+            # odom.child_frame_id = self.base_frame
+            # odom.header.stamp = now
+            # odom.pose.pose.position.x = self.x
+            # odom.pose.pose.position.y = self.y
+            # odom.pose.pose.position.z = 0
+            # odom.pose.pose.orientation = quaternion
+            # odom.twist.twist.linear.x = vxy
+            # odom.twist.twist.linear.y = 0
+            # odom.twist.twist.angular.z = vth
 
-            odom.pose.covariance = ODOM_POSE_COVARIANCE
-            odom.twist.covariance = ODOM_TWIST_COVARIANCE
+            # odom.pose.covariance = ODOM_POSE_COVARIANCE
+            # odom.twist.covariance = ODOM_TWIST_COVARIANCE
 
-            self.odomPub.publish(odom)
+            # self.odomPub.publish(odom)
             
-            if now > (self.last_cmd_vel + rospy.Duration(self.timeout)):
-                self.v_x = 0
-                self.v_y = 0
-                self.v_th = 0
+            # if now > (self.last_cmd_vel + rospy.Duration(self.timeout)):
+            #     self.v_x = 0
+            #     self.v_y = 0
+            #     self.v_th = 0
 
             # Set motor speeds in encoder ticks per PID loop
             if ((not self.stopped)):
@@ -591,24 +591,24 @@ class BaseController:
         # Handle velocity-based movement requests
         self.last_cmd_vel = rospy.Time.now()
         
-        cmd_vel = Twist()
+        robot_cmd_vel = Twist()
         x = req.linear.x         # m/s
         y = req.linear.y         # m/s
         th = req.angular.z       # rad/s
 
         if self.emergencybt_val == 1:
-            cmd_vel.linear.x = 0
-            cmd_vel.linear.y = 0
-            cmd_vel.angular.z = 0
+            robot_cmd_vel.linear.x = 0
+            robot_cmd_vel.linear.y = 0
+            robot_cmd_vel.angular.z = 0
         else:
-            cmd_vel.linear.x = x
-            cmd_vel.linear.y = y
-            cmd_vel.angular.z = th
-        self.cmd_vel_pub.publish(cmd_vel)
+            robot_cmd_vel.linear.x = x
+            robot_cmd_vel.linear.y = y
+            robot_cmd_vel.angular.z = th
+        self.robot_cmd_vel_pub.publish(robot_cmd_vel)
 
-        self.v_x =  cmd_vel.linear.x
-        self.v_y =  cmd_vel.linear.y
-        self.v_th = cmd_vel.angular.z
+        self.v_x =  robot_cmd_vel.linear.x
+        self.v_y =  robot_cmd_vel.linear.y
+        self.v_th = robot_cmd_vel.angular.z
 
 class MicroControllerROS():
     def __init__(self):
