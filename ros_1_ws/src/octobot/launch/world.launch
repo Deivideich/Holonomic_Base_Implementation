@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+
+<launch>
+    <!-- Arguments -->
+    <arg name = "world" default="$(find octobot)/worlds/house.world"></arg>
+    <arg name = "paused" default="false"/>
+    <arg name="use_sime_time" default="true"/>
+    <arg name="gui" default="true"/>
+    <arg name="recording" default="false"/>
+    <arg name="debug" default="false"/>
+
+    <!-- Robot Description from URDF -->
+    <param name="robot_description" command="$(find octobot)/urdf/octobot_simulation.urdf"/>
+
+    <!--  -->
+    <include file="$(find octobot) "/>
+
+
+</launch>
