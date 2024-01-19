@@ -371,7 +371,7 @@ class BaseController:
 
         # Subscriptions
         rospy.Subscriber("cmd_vel", Twist, self.cmdVelCallback)
-        self.robot_cmd_vel_pub = rospy.Publisher('cmd_vel', Twist, queue_size=5)
+        # self.robot_cmd_vel_pub = rospy.Publisher('cmd_vel', Twist, queue_size=5)
         
         # Clear any old odometry info
         self.Microcontroller.reset_encoders()
@@ -604,7 +604,7 @@ class BaseController:
             robot_cmd_vel.linear.x = x
             robot_cmd_vel.linear.y = y
             robot_cmd_vel.angular.z = th
-        self.robot_cmd_vel_pub.publish(robot_cmd_vel)
+        # self.robot_cmd_vel_pub.publish(robot_cmd_vel)
 
         self.v_x =  robot_cmd_vel.linear.x
         self.v_y =  robot_cmd_vel.linear.y
@@ -633,7 +633,7 @@ class MicroControllerROS():
         self.cmd_vel = Twist()
   
         # A cmd_vel publisher so we can stop the robot when shutting down
-        self.cmd_vel_pub = rospy.Publisher('cmd_vel', Twist, queue_size=5)
+        # self.cmd_vel_pub = rospy.Publisher('cmd_vel', Twist, queue_size=5)
         
         # Initialize the controlller
         self.controller = Microcontroller(self.port, self.baud, self.timeout)
@@ -662,7 +662,7 @@ class MicroControllerROS():
         # Stop the robot
         try:
             rospy.loginfo("Stopping the robot...")
-            self.cmd_vel_pub.Publish(Twist())
+            # self.cmd_vel_pub.Publish(Twist())
             rospy.sleep(2)
         except:
             pass

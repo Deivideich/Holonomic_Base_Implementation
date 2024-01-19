@@ -5,11 +5,11 @@
        <node pkg="move_base" type="move_base" respawn="false" name="move_base" output="screen">
           <param name="base_local_planner" value="dwa_local_planner/DWAPlannerROS" />
           <param name="controller_frequency" value="10.0" />
-          <rosparam file="$(find NuevaBaseMetal3)/config/costmap_common_params.yaml" command="load" ns="global_costmap" /> 
-          <rosparam file="$(find NuevaBaseMetal3)/config/costmap_common_params.yaml" command="load" ns="local_costmap" />
-          <rosparam file="$(find NuevaBaseMetal3)/config/local_costmap_params.yaml" command="load" />
-          <rosparam file="$(find NuevaBaseMetal3)/config/global_costmap_params.yaml" command="load" /> 
-          <rosparam file="$(find NuevaBaseMetal3)/config/dwa_local_planner_params.yaml" command="load" />
+          <rosparam file="$(find octobot)/config/costmap_common_params.yaml" command="load" ns="global_costmap" /> 
+          <rosparam file="$(find octobot)/config/costmap_common_params.yaml" command="load" ns="local_costmap" />
+          <rosparam file="$(find octobot)/config/local_costmap_params.yaml" command="load" />
+          <rosparam file="$(find octobot)/config/global_costmap_params.yaml" command="load" /> 
+          <rosparam file="$(find octobot)/config/dwa_local_planner_params.yaml" command="load" />
        </node>
    </group>
  
