@@ -324,7 +324,7 @@ class BaseController:
         self.stopped = False
         self.useImu = rospy.get_param("~useImu", False)
         
-        self.wheel_diameter = rospy.get_param("~wheel_diameter", 0.1518)
+        self.wheel_diameter = rospy.get_param("~wheel_diameter", 0.105)
         self.wheel_track = rospy.get_param("~wheel_track", 0.375)
         self.encoder_resolution = rospy.get_param("~encoder_resolution", 42760)
         self.gear_reduction = rospy.get_param("~gear_reduction", 1.0)
@@ -370,8 +370,8 @@ class BaseController:
         self.emergencybt_pub = rospy.Publisher('emergencybt_status', Int16, queue_size=5)
 
         # Subscriptions
-        rospy.Subscriber("cmd_vel", Twist, self.cmdVelCallback)
-        self.robot_cmd_vel_pub = rospy.Publisher('cmd_vel', Twist, queue_size=5)
+        # rospy.Subscriber("cmd_vel", Twist, self.cmdVelCallback)
+        # self.robot_cmd_vel_pub = rospy.Publisher('cmd_vel', Twist, queue_size=5)
         
         # Clear any old odometry info
         self.Microcontroller.reset_encoders()
@@ -604,7 +604,7 @@ class BaseController:
             robot_cmd_vel.linear.x = x
             robot_cmd_vel.linear.y = y
             robot_cmd_vel.angular.z = th
-        self.robot_cmd_vel_pub.publish(robot_cmd_vel)
+        # self.robot_cmd_vel_pub.publish(robot_cmd_vel)
 
         self.v_x =  robot_cmd_vel.linear.x
         self.v_y =  robot_cmd_vel.linear.y
@@ -633,7 +633,7 @@ class MicroControllerROS():
         self.cmd_vel = Twist()
   
         # A cmd_vel publisher so we can stop the robot when shutting down
-        self.cmd_vel_pub = rospy.Publisher('cmd_vel', Twist, queue_size=5)
+        # self.cmd_vel_pub = rospy.Publisher('cmd_vel', Twist, queue_size=5)
         
         # Initialize the controlller
         self.controller = Microcontroller(self.port, self.baud, self.timeout)
@@ -662,7 +662,7 @@ class MicroControllerROS():
         # Stop the robot
         try:
             rospy.loginfo("Stopping the robot...")
-            self.cmd_vel_pub.Publish(Twist())
+            # self.cmd_vel_pub.Publish(Twist())
             rospy.sleep(2)
         except:
             pass
