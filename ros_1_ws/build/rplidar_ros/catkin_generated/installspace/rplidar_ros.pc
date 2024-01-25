@@ -1,8 +1,0 @@
-prefix=/home/deivideich/Holonomic_Base_Implementation/ros_1_ws/install
-
-Name: rplidar_ros
-Description: Description of rplidar_ros
-Version: 1.9.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 
