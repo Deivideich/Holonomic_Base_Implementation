@@ -370,7 +370,11 @@ class BaseController:
         self.emergencybt_pub = rospy.Publisher('emergencybt_status', Int16, queue_size=5)
 
         # Subscriptions
+<<<<<<< HEAD
         # rospy.Subscriber("cmd_vel", Twist, self.cmdVelCallback)
+=======
+        rospy.Subscriber("cmd_vel", Twist, self.cmdVelCallback)
+>>>>>>> 0f5c66f7507a203dd7f8b26a744a37a88d0fbf6e
         # self.robot_cmd_vel_pub = rospy.Publisher('cmd_vel', Twist, queue_size=5)
         
         # Clear any old odometry info
