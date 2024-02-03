@@ -372,7 +372,7 @@
       </ray>
       <plugin name="gazebo_ros_head_hokuyo_controller" filename="libgazebo_ros_laser.so">
         <topicName>/scan</topicName>
-        <frameName>lidar_link</frameName>
+        <frameName>base_link</frameName>
       </plugin>
     </sensor>
   </gazebo>
